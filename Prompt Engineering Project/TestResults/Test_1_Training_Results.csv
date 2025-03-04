@@ -1,0 +1,393 @@
+Test_1
+Statistical analysis:
+Total Guesses:,168
+Total Akkadian Guesses:,163
+Total Correct Akkadian Guesses:,142,Percent Correct Guesses:,0.8711656441717791
+Total Incorrect Akkadian Guesses:,21,Percent Incorrect Guesses:,0.12883435582822086
+Total Sumerian Guesses:,5
+Total Correct Sumerian Guesses:,5,Percent Correct Guesses:,1.0
+Total Incorrect Sumerian Guesses:,0,Percent Incorrect Guesses:,0.0
+Total Emesal Guesses:,0
+
+Qualitative analysis:
+Description:,n/a
+Model used:,GPT_4_MINI
+Prompts used:,
+['instruction 1: ', ['Using', 'your', 'knowledge', 'of', 'linguistic', 'analysis', 'and', 'language', 'processing', 'you', 'will', 'perform', 'the', 'task', 'of', 'identifying', 'the', 'lemmas', 'of', 'words', 'from', 'ancient', 'cuneiform', 'languages.', 'Ignore', 'English', 'lemmatization', 'rules.\n']]
+['instruction 2: ', ['A', 'lemma', 'is', 'defined', 'as', 'the', 'root', 'form', 'of', 'a', 'word', 'without', 'conjugation.', 'Also', 'known', 'as', 'one', 'that', 'would', 'be', 'listed', 'in', 'a', 'dictionary', 'entry', 'for', 'the', 'word.\n']]
+['instruction 3: ', ['Using', 'your', 'knowledge', 'of', 'linguistic', 'analysis', 'and', 'language', 'processing', 'you', 'will', 'perform', 'the', 'task', 'of', 'identifying', 'the', 'lemmas', 'of', 'words', 'from', 'ancient', 'cuneiform', 'languages.\n']]
+['instruction 4: ', ['"You', 'will', 'be', 'given', 'the', 'word', 'which', 'you', 'need', 'to', 'identify.', 'Sometimes', 'you', 'will', 'be', 'given', 'contextual', 'information']]
+['instruction 5: ', ['Return', 'a', 'single', 'word', 'without', 'explanation', 'nor', 'formatting', 'when', 'asked', 'for', 'the', 'lemma', 'of', 'a', 'word.\n']]
+['training statement prompt: ', ['The', 'lemma', 'of', '', '[P]', '', 'is', '', '[P]', '.\n']]
+['test question prompt: ', ['What', 'is', 'the', 'lemma', 'of', '', '[P]', '?\n']]
+['language context prompt: ', ['This', 'word', 'is', 'found', 'in', 'the', 'language', 'of', '', '[P]', '.\n']]
+['example sentence context prompt: ', ['An', 'example', 'sentence', 'using', 'this', 'word', 'is', '', '[P]', '.\n']]
+['negative reinforcement prompt: ', ['That', 'is', 'incorrect.', 'The', 'lemma', 'of', '', '[P]', '', 'is', '', '[P]', '.\n']]
+['small mistake negative reinforcement prompt: ', ['Your', 'answer', 'was', 'close.\n']]
+['common mistake negative reinforcement prompt: ', ['"When', 'given', 'words', 'whose', 'lemma', 'is', '', '[P]', '']]
+
+Tested Lemmas:,Total Tests,,Percent Correct,Percent Incorrect,Incorrect Guesses
+ina I,5,0.6,0.4
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,ina,1,1.0,0.0,
+,i+na,1,1.0,0.0,
+,i,1,0.0,1.0,( i I | An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] ataadlaah i. . )
+,iṣe₂er,1,0.0,1.0,( iṣēru I )
+,i₃na,1,1.0,0.0,
+lā I,5,0.8,0.2
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,NU,1,1.0,0.0,
+,la₂,1,1.0,0.0,
+,GIŠ₃.NU.ZU,1,0.0,1.0,( lu I | An example sentence using this word is  ana KI MIN GIŠ.GAN₂ {giš}LU₂anu {u₂}elikulla {u₂}kurkanaa ša₂ KUR ina [MASK] {munus}AŠ₂.GAR₃ GIŠ₃.NU.ZU ina GU₂šu₂ GARan. . )
+,BA.RA,1,1.0,0.0,
+,NU.ŠE.GA,1,1.0,0.0,
+bēlu I,5,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,beli₃,1,1.0,0.0,
+,{lu₂}EN.NAM,1,1.0,0.0,
+,ENšu₂nu,1,1.0,0.0,
+,ENšunu,1,1.0,0.0,
+,ENE₂,1,1.0,0.0,
+ša I,5,0.6,0.4
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,ša₂salamu,1,1.0,0.0,
+,NIG₂.ŠU,1,0.0,1.0,( nig I | An example sentence using this word is  [MASK] SILA₃ NIG₂.ŠU IGI.DU. . )
+,ša(|SILA₃.UD|),1,1.0,0.0,
+,{lu₂}ša₂UGUURU,1,1.0,0.0,
+,LU₂,1,0.0,1.0,( lu I | An example sentence using this word is  SAG IM.4 LU₂ GU₂ BURANUN{ki}. . )
+māru I,5,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,DUMU.ME.EŠ,1,1.0,0.0,
+,DUMUME,1,1.0,0.0,
+,DUMUMEŠkina,1,1.0,0.0,
+,DUMUšu,1,1.0,0.0,
+,DUMU.DUMUMEŠšu₂,1,1.0,0.0,
+ul I,5,0.8,0.2
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,NU,1,0.0,1.0,( lā I | An example sentence using this word is  DIŠ ina IGI.DU₈.Ašu₂ NU GAL₂ KUR mala GAL₂u₂ TA {d}UTU.E₃. . )
+,ul,1,1.0,0.0,
+,u₃ul,1,1.0,0.0,
+,NU.MU.UN.TEŠ₂,1,1.0,0.0,
+,NU.AL.TIL,1,1.0,0.0,
+šarru I,5,0.8,0.2
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,LUGALMEŠ,1,1.0,0.0,
+,šarrani,1,1.0,0.0,
+,šarru,1,1.0,0.0,
+,MANMEŠni,1,0.0,1.0,( manu I | An example sentence using this word is  ezib MANMEŠni. . )
+,LUGALšu₂,1,1.0,0.0,
+u I,4,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,u₃,1,1.0,0.0,
+,u,1,1.0,0.0,
+,u₂,1,1.0,0.0,
+,u₃(u₂),1,1.0,0.0,
+ilu I,5,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,DINGIRMEŠša₂,1,1.0,0.0,
+,DINGIR.HUL.AMEŠ,1,1.0,0.0,
+,ili,1,1.0,0.0,
+,i₃li₂MU,1,1.0,0.0,
+,ilišiin,1,1.0,0.0,
+ūmu I,5,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,U₄MEŠia,1,1.0,0.0,
+,U₄.11.KAM@v,1,1.0,0.0,
+,u₄mišu₂,1,1.0,0.0,
+,u₄miia,1,1.0,0.0,
+,U₄ME,1,1.0,0.0,
+mātu I,5,0.8,0.2
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,maati₃,1,1.0,0.0,
+,maatu₄,1,1.0,0.0,
+,KURka,1,1.0,0.0,
+,KALAM,1,1.0,0.0,
+,mataatim,1,0.0,1.0,( mātum I | An example sentence using this word is  [MASK] ina mataatim. . )
+bītu I,5,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,{giš}E₂,1,1.0,0.0,
+,bitiiš,1,1.0,0.0,
+,bit,1,1.0,0.0,
+,bitatiia,1,1.0,0.0,
+,E₂šu₂nu,1,1.0,0.0,
+šakānu I,5,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,iššakna,1,1.0,0.0,
+,tašakkani,1,1.0,0.0,
+,šu₂kunma,1,1.0,0.0,
+,liškunma,1,1.0,0.0,
+,taškuna,1,1.0,0.0,
+libbu I,5,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,lib₃bišu₂nu,1,1.0,0.0,
+,lib₃buu₂,1,1.0,0.0,
+,lib₃buuš,1,1.0,0.0,
+,liibbišu,1,1.0,0.0,
+,ŠA₃.ŠA₃šina,1,1.0,0.0,
+Belet-ili I,5,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,{d}beleti₃li₂,1,1.0,0.0,
+,{d}beletDINGIRMEŠ,1,1.0,0.0,
+,{d}beletDIGIRMEŠ,1,1.0,0.0,
+,beleti₃li₂,1,1.0,0.0,
+,beletDINGIRMEŠ,1,1.0,0.0,
+pānu I,5,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,IGIšu₂nu,1,1.0,0.0,
+,IGIšu₂ma,1,1.0,0.0,
+,panuša₂,1,1.0,0.0,
+,IGIMEŠ,1,1.0,0.0,
+,IGIkunu,1,1.0,0.0,
+kullu III,5,0.6,0.4
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,tukalli,1,1.0,0.0,
+,likillu,1,0.0,1.0,( likillu I | An example sentence using this word is  [MASK] napṭikunu likillu. . )
+,kiiil,1,0.0,1.0,( kīlu I | An example sentence using this word is  kiiil qa₂qa₂adka. . )
+,u₂kalšu₂nuti,1,1.0,0.0,
+,tukallušu,1,1.0,0.0,
+surdû I,4,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,SUR₂.DU₃{mušen},1,1.0,0.0,
+,SUR₂.DU₃.MEŠ,1,1.0,0.0,
+,SUR₂.DU₃{mušen}MEŠ,1,1.0,0.0,
+,SUR₂.DU₃,1,1.0,0.0,
+kukudru I,3,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,kukuudri,1,1.0,0.0,
+,kukuudru,1,1.0,0.0,
+,kukuudruum,1,1.0,0.0,
+šanîš II,3,0.6666666666666666,0.3333333333333333
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,ša₂niiš,1,1.0,0.0,
+,ša₂niš,1,1.0,0.0,
+,MIN,1,0.0,1.0,( min I | An example sentence using this word is  [MASK] MIN [MASK] U₂.BABBAR SUD₂ ina MUD ZABAR ana ŠA₃ IGI.MINšu₂ BUN₂. . )
+būšu I,5,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,NIG₂.ŠU,1,1.0,0.0,
+,bušee,1,1.0,0.0,
+,I₃.GAL₂šu,1,1.0,0.0,
+,NIG₂.ŠUea,1,1.0,0.0,
+,NIG₂.GAL₂MEŠša₂,1,1.0,0.0,
+Ini-[…],1,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,i-ni,1,1.0,0.0,
+nannāru I,5,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,naannar,1,1.0,0.0,
+,naannari,1,1.0,0.0,
+,{d}+NANNArata,1,1.0,0.0,
+,naannaru,1,1.0,0.0,
+,{d}naannaru,1,1.0,0.0,
+dabâbum,5,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,id-bu-ba-am,1,0.0,1.0,( dabâbum I | An example sentence using this word is  ṭe₄-ma-am an-né-e-em (I)-lu-pa-hu-um id-bu-ba-am. . )
+,ú-da-ba-ab,1,0.0,1.0,( dabâbum I | An example sentence using this word is  É-GAL-lam la ú-da-ba-ab. . )
+,da-ab-bu,1,0.0,1.0,( dabâbum I | An example sentence using this word is  an-ni-tam it-ti i da-ab-bu ù la na-ti. . )
+,i-da-bu-ub,1,0.0,1.0,( dabâbum I | An example sentence using this word is  am i-da-bu-ub um-ma-mi pí-qa-at zi-im-ri-(d)-IŠKUR a-na GAL MAR-TU. . )
+,ú-šu-nu-ti,1,0.0,1.0,( unûtum I | An example sentence using this word is  um-ma-a-mi i-na be-la-ni ú-šu-nu-ti. . )
+Iqiša I,5,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,{m}BAša₂a,1,1.0,0.0,
+,BAša₂a,1,1.0,0.0,
+,{m}BA{+ša₂},1,1.0,0.0,
+,{m}BAša₂,1,1.0,0.0,
+,{m}BA{+ša₂}a,1,1.0,0.0,
+Sin-mušallim,5,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,(I)-(d)-EN-ZU-mu-ša-lim,1,1.0,0.0,
+,(I)-(d)-EN-ZU-mu-ša,1,1.0,0.0,
+,(I)-(d)-ZU-mu-ša-lim,1,1.0,0.0,
+,(d)-EN-ZU-mu-ša-lim,1,1.0,0.0,
+,(I)-(d)-EN-ZU-mu,1,1.0,0.0,
+Iddiyatum,3,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,i-dí-ia,1,1.0,0.0,
+,i-dí-ia-tim,1,1.0,0.0,
+,i-dí-ia-tum-ma,1,1.0,0.0,
+marišmara I,5,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,{u₂}MA₂.ERIŠ₄.MA₂.RA,1,1.0,0.0,
+,{giš}MA₂.RI₂.IŠ.MA₂.RA,1,1.0,0.0,
+,{giš}MA₂.EREŠ.MA₂.RA,1,1.0,0.0,
+,{giš}MI.EREŠ₄eš.MA₂.URU₅uumma,1,1.0,0.0,
+,{u₂}MA₂.ERIŠ₄.MA₂lee,1,1.0,0.0,
+Šehna,3,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,še-eh-na-a-(ki),1,1.0,0.0,
+,še-eh-na,1,1.0,0.0,
+,še-eh-na-a,1,1.0,0.0,
+Elam,5,0.6,0.4
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,MA-(ki),1,0.0,1.0,( ma I | An example sentence using this word is  ku-un-na-ma-an MA-(ki). . )
+,ELAM-MA-MEŠ,1,1.0,0.0,
+,ELAM-(ki),1,1.0,0.0,
+,tim,1,0.0,1.0,( tim I )
+,ELAM-(ki)-MA,1,1.0,0.0,
+unûtum,2,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,ú-nu-ut,1,0.0,1.0,( unûtum I | An example sentence using this word is  ša i-na ŠÀ-TAM É ú-nu-ut MÈ iz-za-zu. . )
+,ú-nu-uz-zu,1,0.0,1.0,( unûtum I | An example sentence using this word is  ni-(d)-IŠKUR ù ú-nu-uz-zu. . )
+Kabiya,1,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,ka-bi-ia,1,1.0,0.0,
+kullatu II,2,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,KI.GAR,1,1.0,0.0,
+,kullat,1,1.0,0.0,
+Tišpak I,5,0.8,0.2
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,{d}TIŠPAK,1,1.0,0.0,
+,{d}tišpak,1,1.0,0.0,
+,{mul}MUŠ,1,0.0,1.0,( muš I | An example sentence using this word is  {d}ṣalbatanu ana {mul}MUŠ. . )
+,{d}tiišpaak,1,1.0,0.0,
+,{d}+tišpak,1,1.0,0.0,
+našparu II,3,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,naašparuu₂,1,1.0,0.0,
+,naašpaar,1,1.0,0.0,
+,naašpari,1,1.0,0.0,
+muštashipu I,1,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,{na₄}SAL.LA,1,1.0,0.0,
+Mitunu I,1,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,{m}mitunu,1,1.0,0.0,
+qubūru I,3,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,qu₂buri,1,1.0,0.0,
+,qu₂buru₃,1,1.0,0.0,
+,quburišu₂,1,1.0,0.0,
+paṭru I,2,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,paṭirti,1,1.0,0.0,
+,DU₈MEŠ,1,1.0,0.0,
+ša’âlum,1,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,al-ma,1,1.0,0.0,
+Ahum-waqar,2,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,(I)-a-hu-um-wa-qar,1,1.0,0.0,
+,a-hu-wa-qar,1,1.0,0.0,
+hašāšu I,1,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,huuššuuš,1,1.0,0.0,
+Kanisan,1,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,ka-ni-sa-an,1,1.0,0.0,
+Šubula I,2,1.0,0.0
+,WordType: UNKNOWN
+,Language: SUMERIAN
+,Tested Clean Values
+,{d}šubula₂,1,1.0,0.0,
+,{d}šu(MA)bula₂,1,1.0,0.0,
+marmaru I,1,1.0,0.0
+,WordType: UNKNOWN
+,Language: SUMERIAN
+,Tested Clean Values
+,marmarra,1,1.0,0.0,
+šapiltum,1,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,ša-pí-il-ti-im,1,1.0,0.0,
+zarû I,1,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,zaree,1,1.0,0.0,
+Ninmug I,1,1.0,0.0
+,WordType: UNKNOWN
+,Language: SUMERIAN
+,Tested Clean Values
+,{d}ninmug,1,1.0,0.0,
+Ninmaš I,1,1.0,0.0
+,WordType: UNKNOWN
+,Language: SUMERIAN
+,Tested Clean Values
+,{d}ninmaš,1,1.0,0.0,

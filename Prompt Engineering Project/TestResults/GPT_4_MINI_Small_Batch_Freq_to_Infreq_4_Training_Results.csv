@@ -1,0 +1,205 @@
+GPT_4_MINI_Small_Batch_Freq_to_Infreq_4
+Statistical analysis:
+Total Guesses:,84
+Total Akkadian Guesses:,84
+Total Correct Akkadian Guesses:,41,Percent Correct Guesses:,0.4880952380952381
+Total Incorrect Akkadian Guesses:,43,Percent Incorrect Guesses:,0.5119047619047619
+Total Sumerian Guesses:,0
+Total Emesal Guesses:,0
+
+Qualitative analysis:
+Description:,n/a
+Model used:,GPT_4_MINI
+Prompts used:,
+['instruction 1: ', ['The', 'following', 'is', 'a', 'conversation', 'between', 'two', 'Akkadian', 'language', 'experts.', 'One', 'guesses', 'the', 'lemma', 'of', 'a', 'provided', 'clean', 'value', 'while', 'the', 'other', 'indicates', 'whether', 'they', 'are', 'correct', 'or', 'not.', 'Using', 'your', 'knowledge', 'of', 'linguistic', 'analysis', 'and', 'the', 'information', 'shared', 'in', 'this', 'conversation', 'you', 'will', 'perform', 'the', 'task', 'of', 'identifying', 'the', 'lemmas', 'of', 'words', 'from', 'Akkadian.\n']]
+['instruction 2: ', ['A', 'lemma', 'is', 'defined', 'as', 'the', 'root', 'form', 'of', 'a', 'word', 'without', 'conjugation.', 'Also', 'known', 'as', 'one', 'that', 'would', 'be', 'listed', 'in', 'a', 'dictionary', 'entry', 'for', 'the', 'word.\n']]
+['instruction 3: ', ['You', 'will', 'be', 'given', 'the', 'word', 'which', 'you', 'need', 'to', 'identify.', 'Sometimes', 'you', 'will', 'be', 'given', 'contextual', 'information', 'such', 'as', 'the', 'language', 'the', 'word', 'is', 'found', 'in', 'as', 'well', 'as', 'an', 'example', 'of', 'its', 'use', 'in', 'a', 'sentence.', '\n']]
+['instruction 4: ', ['Return', 'a', 'single', 'word', 'without', 'explanation', 'nor', 'formatting', 'when', 'asked', 'for', 'the', 'lemma', 'of', 'a', 'word.\n']]
+['training statement prompt: ', ['The', 'lemma', 'of', '', '[P]', '', 'is', '', '[P]', '.\n']]
+['test question prompt: ', ['What', 'is', 'the', 'lemma', 'of', '', '[P]', '?\n']]
+['example sentence context prompt: ', ['An', 'example', 'sentence', 'using', 'this', 'word', 'is', '', '[P]', '.\n']]
+['negative reinforcement prompt: ', ['Your', 'response', 'is', 'incorrect.', 'The', 'lemma', 'of', '', '[P]', '', 'is', '', '[P]', '.\n']]
+['small mistake negative reinforcement prompt: ', ['The', 'correct', 'lemma', 'is', 'slightly', 'different.\n']]
+['common mistake negative reinforcement prompt: ', ['"When', 'given', 'words', 'whose', 'lemma', 'is', '', '[P]', '']]
+
+Tested Lemmas:,Total Tests,,Percent Correct,Percent Incorrect,Incorrect Guesses
+bēlu I,5,0.4,0.6
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,EN.EN,1,0.0,1.0,( EN I | erubu mahra EN.EN tabbuu TIa maʾdiš )
+,belum,1,1.0,0.0,
+,ENMEŠe,1,0.0,1.0,( EN I | alsikunuši ENMEŠe )
+,ENša₂,1,0.0,1.0,( EN I | {giš}KAK.LIŠ.LA₂ ša ENša₂ ammeni taškuni nipiš )
+,beli₂ša,1,1.0,0.0,
+māru I,5,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,DUMUMEŠšu₂,1,0.0,1.0,( DUMU I | BI DUMUMEŠšu₂ GAZMEŠšu₂ )
+,DUMU.A.NI,1,0.0,1.0,( DUMU I | ŠU DUMU.A.NI palih {d}60 {d}50 {d}40 )
+,DUMUMEŠkina,1,0.0,1.0,( DUMU I | DUMUMEŠkina lušeniq )
+,DUMU.MUNUS.MEŠkina,1,0.0,1.0,( DUMU I | DUMU.MUNUS.MEŠkina tulaa luuštakkan )
+,marum,1,0.0,1.0,( maru I | tidema atta marum )
+ul I,5,0.8,0.2
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,u₂ul,1,1.0,0.0,
+,ul,1,1.0,0.0,
+,u₃ul,1,1.0,0.0,
+,NU.MU.UN.TEŠ₂,1,0.0,1.0,( bēlu I | NIR.GAL₂ZU NU.MU.UN.TEŠ₂ {d}EN.KI u {d}asarlu₂hi )
+,NU.AL.TIL,1,1.0,0.0,
+šarru I,5,0.2,0.8
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,LUGALME,1,0.0,1.0,( LUGAL I | DIŠ {mul}SAG.ME.GAR ina ŠA₃ SI {d}30 ŠU₂ UŠ₂ LUGALME 1niš UŠ₂MEŠ )
+,šarra,1,1.0,0.0,
+,LUGAL.LA,1,0.0,1.0,( LUGAL I | bunaanni LUGAL.LA eli tene₂šeetu₄ ša₂lummatu₄ )
+,LUGALša,1,0.0,1.0,( LUGAL I | DIŠ KAK.TI kima si₂ikkatim iizziza KALAM ana LUGALša uktapaal )
+,LUGALMEŠšinaama,1,0.0,1.0,( LUGAL I )
+u I,4,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,u₃,1,1.0,0.0,
+,u,1,1.0,0.0,
+,u₂,1,1.0,0.0,
+,u₃(u₂),1,1.0,0.0,
+ilu I,5,0.8,0.2
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,ilu₄,1,1.0,0.0,
+,ilšu,1,1.0,0.0,
+,i₃li₃,1,1.0,0.0,
+,DIGIRia₅,1,0.0,1.0,( DIGIR I | ana DIGIRia₅ zenii {d}iš₈tar₂ia₅ )
+,ilaam,1,1.0,0.0,
+ūmu I,5,0.6,0.4
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,U₄.1.KAM@v,1,1.0,0.0,
+,U₄.3.KAM,1,1.0,0.0,
+,UD.8.KAM@v,1,0.0,1.0,( UD I | UD.8.KAM@v MU.6.KAM@v )
+,UD.2.KAM@v,1,0.0,1.0,( UD I | bar₂sip₂{ki} {iti}NE UD.2.KAM@v MU.1.KAM@v )
+,u₄mešu₂ma,1,1.0,0.0,
+mātu I,5,0.4,0.6
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,KUR.KUR,1,0.0,1.0,( KUR I | LUGAL E{ki} LUGAL KUR.KUR )
+,matišu₂,1,0.0,1.0,( mati I | KURsu aburriš šurbuṣi nišišu₂ ina nuuhši ree₂ussu el matišu₂ )
+,matata,1,1.0,0.0,
+,KUR.KURMEŠ,1,0.0,1.0,( KUR I | ša kal KUR.KURMEŠ )
+,maata,1,1.0,0.0,
+šēmû I,4,0.75,0.25
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,šemee,1,0.0,1.0,( šemû I | {d}LAMA qabe₂e šemee u magaru )
+,ŠE.GA,1,1.0,0.0,
+,ŠE,1,1.0,0.0,
+,ŠEu₂,1,1.0,0.0,
+qilpu I,5,0.6,0.4
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,BAR,1,0.0,1.0,( BAR I | DIŠ KIMIN {u₂}ruušruušša U₂ BABBAR BAR {giš}NU.UR₂.MA NA₄ ZU₂.LUM.MA {u₂}LAG.GA₂ GURUN {u₂}KUR.RA )
+,qi₂lip,1,1.0,0.0,
+,qi₂lip₂,1,1.0,0.0,
+,qa₃lap,1,0.0,1.0,( qalpu I | GIN₂ qa₃lap SUM{sar} GIN₂ )
+,qi₂ilpa,1,1.0,0.0,
+asu I,5,0.6,0.4
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,{šim}GIR₂,1,0.0,1.0,( giru I | {šim}GIR₂ I₃.UDU )
+,{giš}{u₂}GIR₂,1,1.0,0.0,
+,{giš}asu,1,1.0,0.0,
+,{giš}ŠIM.GIR₂,1,1.0,0.0,
+,{u₂}GIR₂,1,0.0,1.0,( giru I | {u₂}GIR₂ makaltu₂ )
+hârum,1,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,ha-a-ri,1,0.0,1.0,( haru I | ANŠE ha-a-ri ša DUMU-MEŠ ia-mi-na la ta-qa-ṭá-al )
+patniš I,1,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,patniš,1,0.0,1.0,( patnu I | la patniš imṭii )
+itûm,5,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,i-ta,1,0.0,1.0,( itû I | ka-šu-ú-ma i-ta )
+,i-ta-at,1,0.0,1.0,( itû I | ša-ni-tam i-ta-at zu-ú-ha-at-ni )
+,i-ta-a-at,1,0.0,1.0,( itû I | i-na i-ta-a-at a-li-i-šu qí-bi-ma )
+,i-ta-a-am,1,0.0,1.0,( itû I | ki-ma ša i-ta-a-am ra-bi-am )
+,ÚS-SA-DU,1,0.0,1.0,( uššu I | ÚS-SA-DU I₇ šu-ši NINDA-TA )
+birratu I,3,0.3333333333333333,0.6666666666666666
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,birrata₅,1,0.0,1.0,( birru I | IGIMINšu₂ birrata₅ ipita₅ išita₅ murdinna qu₃qana aša₂a )
+,birrat,1,0.0,1.0,( birru I | u KU₃.SI₂₂ DAB {na₄}kapaṣa ša₂ ina KU₃.SI₂₂ DAB NA₄ME birrat IGIMIN )
+,birratu₄,1,1.0,0.0,
+isinnu I,5,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,isinnišu₂,1,1.0,0.0,
+,isinni,1,1.0,0.0,
+,isin,1,1.0,0.0,
+,isinniša,1,1.0,0.0,
+,isiinnu,1,1.0,0.0,
+rukūbu I,5,0.6,0.4
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,{giš}rukubu,1,0.0,1.0,( rukubu I | {lu₂}malahu ša₂ {giš}rukubu ana NAR imahaṣma )
+,{ma₂}rukubu,1,1.0,0.0,
+,{giš}MA₂.U₅,1,0.0,1.0,( ma I | {giš}MA₂.U₅ ša₂ {d}+EN u )
+,rukubu,1,1.0,0.0,
+,rukubi,1,1.0,0.0,
+zibītu II,2,0.5,0.5
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,{na₄}zibitu,1,0.0,1.0,( zibitu I | {na₄}PA {na₄}zibitu {na₄}GUG {na₄}šuu )
+,{na₄}ziE₂,1,1.0,0.0,
+duruššu I,3,0.3333333333333333,0.6666666666666666
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,duruuššika,1,0.0,1.0,( durū I | harraanka šušir urha kinam ana duruuššika alik )
+,duruuš,1,0.0,1.0,( durū I | duruuš KUR )
+,duruuššu,1,1.0,0.0,
+Lulimu I,2,0.5,0.5
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,{mul}lulim,1,0.0,1.0,( lulu I | {mul}lulim KI )
+,{mul}LU.LIM,1,1.0,0.0,
+irtum,1,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,i-ir-ti,1,0.0,1.0,( i I | at-ti i-ir-ti sà-sí-ia )
+šiprūtu I,1,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,šiiprutiim,1,0.0,1.0,( šiprutu I | ana šiiprutiim )
+pehû I,1,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,pihi,1,0.0,1.0,( pihu I | muuštinnašu₂ pihi muuštinna piilšu₂ ša₂ u₂šari ašar šinaatu₂ )
+parāqu I,1,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,purruqu,1,0.0,1.0,( purru I | BARA₂ purruqu )

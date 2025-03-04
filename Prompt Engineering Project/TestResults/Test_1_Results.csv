@@ -1,0 +1,299 @@
+Test_1
+Statistical analysis:
+Total Guesses:,192
+Total Akkadian Guesses:,192
+Total Correct Akkadian Guesses:,5,Percent Correct Guesses:,0.026041666666666668
+Total Incorrect Akkadian Guesses:,187,Percent Incorrect Guesses:,0.9739583333333334
+Total Sumerian Guesses:,0
+Total Emesal Guesses:,0
+
+Qualitative analysis:
+Description:,n/a
+Model used:,GPT_4_MINI
+Prompts used:,
+['instruction 1: ', ['Using', 'your', 'knowledge', 'of', 'linguistic', 'analysis', 'and', 'language', 'processing', 'you', 'will', 'perform', 'the', 'task', 'of', 'identifying', 'the', 'lemmas', 'of', 'words', 'from', 'ancient', 'cuneiform', 'languages.', 'Ignore', 'English', 'lemmatization', 'rules.\n']]
+['instruction 2: ', ['A', 'lemma', 'is', 'defined', 'as', 'the', 'root', 'form', 'of', 'a', 'word', 'without', 'conjugation.', 'Also', 'known', 'as', 'one', 'that', 'would', 'be', 'listed', 'in', 'a', 'dictionary', 'entry', 'for', 'the', 'word.\n']]
+['instruction 3: ', ['Using', 'your', 'knowledge', 'of', 'linguistic', 'analysis', 'and', 'language', 'processing', 'you', 'will', 'perform', 'the', 'task', 'of', 'identifying', 'the', 'lemmas', 'of', 'words', 'from', 'ancient', 'cuneiform', 'languages.\n']]
+['instruction 4: ', ['"You', 'will', 'be', 'given', 'the', 'word', 'which', 'you', 'need', 'to', 'identify.', 'Sometimes', 'you', 'will', 'be', 'given', 'contextual', 'information']]
+['instruction 5: ', ['Return', 'a', 'single', 'word', 'without', 'explanation', 'nor', 'formatting', 'when', 'asked', 'for', 'the', 'lemma', 'of', 'a', 'word.\n']]
+['training statement prompt: ', ['The', 'lemma', 'of', '', '[P]', '', 'is', '', '[P]', '.\n']]
+['test question prompt: ', ['What', 'is', 'the', 'lemma', 'of', '', '[P]', '?\n']]
+['language context prompt: ', ['This', 'word', 'is', 'found', 'in', 'the', 'language', 'of', '', '[P]', '.\n']]
+['example sentence context prompt: ', ['An', 'example', 'sentence', 'using', 'this', 'word', 'is', '', '[P]', '.\n']]
+['negative reinforcement prompt: ', ['That', 'is', 'incorrect.', 'The', 'lemma', 'of', '', '[P]', '', 'is', '', '[P]', '.\n']]
+['small mistake negative reinforcement prompt: ', ['Your', 'answer', 'was', 'close.\n']]
+['common mistake negative reinforcement prompt: ', ['"When', 'given', 'words', 'whose', 'lemma', 'is', '', '[P]', '']]
+
+Tested Lemmas:,Total Tests,,Percent Correct,Percent Incorrect,Incorrect Guesses
+šū I,11,0.2727272727272727,0.7272727272727273
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,šuu₂ma,1,1.0,0.0,
+,BI,1,0.0,1.0,( bītu I | An example sentence using this word is  URU BI. . )
+,šu₂atu₂,1,0.0,1.0,( šuatu I | An example sentence using this word is  ša ina [MASK] [MASK] mimma šipru šu₂atu₂. . )
+,šuu₂,1,1.0,0.0,
+,šuatu,1,0.0,1.0,( šūtu I | An example sentence using this word is  ša ina LUGALMEŠni alik mahriia mam₂ma šuatu la. . )
+,šuu,1,1.0,0.0,
+,šuma,1,0.0,1.0,( šum I | An example sentence using this word is  daʾiiš kullate sakip GABA HUL MUNE {giš}TUKUL {d}AMAR.UTU šuma. . )
+,šu₂ma,1,0.0,1.0,( šu I | An example sentence using this word is  šur [MASK] ki šu₂ma. . )
+,šu₂u,1,0.0,1.0,( šu I | An example sentence using this word is  niš [MASK] LU₂ šu₂u. . )
+,šu₂atu,1,0.0,1.0,( šuatu I | An example sentence using this word is  ina LUGALMEŠ alik [MASK] mam₂ma šipru šu₂atu. . )
+,šuatu₂,1,0.0,1.0,( šūtu I | An example sentence using this word is  ša ina LUGALMEŠni alik mahriia mam₂ma šipru šuatu₂ la. . )
+Marduk I,12,0.16666666666666666,0.8333333333333334
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,{d}AMAR.UTU,1,0.0,1.0,( Amaru I | An example sentence using this word is  [MASK] [MASK] NU DU₁₁.DU₁₁ub u₃ UMUŠšu₂ la ṣabit ana [MASK] BI DIBti₃ {d}AMAR.UTU UGUšu₂ GAL₂ši. . )
+,{d}MES,1,0.0,1.0,( mes I | An example sentence using this word is  {d}+AG u {d}MES. . )
+,{m}{d}ŠU₂TINsuE,1,0.0,1.0,( Šuṭṭinu I | An example sentence using this word is  GABA.RI E{ki} labirišu₂ ša₂ṭiirma baar₂ IM {m}{d}ŠU₂TINsuE. . )
+,{d}marduk,1,1.0,0.0,
+,{mul}{d}AMAR.UTU,1,0.0,1.0,( Amar-utu I | An example sentence using this word is  DIŠ {mul}{d}AMAR.UTU. . )
+,{d}AMARUTU,1,0.0,1.0,( Amarutu I | An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] [MASK] {d}AMARUTU mari reštuu₂. . )
+,{d}ŠU₂,1,0.0,1.0,( šū I | An example sentence using this word is  {d}UTU u {d}ŠU₂ u [MASK] TU₆. . )
+,{mul}{d}marduk,1,0.0,1.0,( Marduk | An example sentence using this word is  {mul}{d}marduk KAN₅ {giš}GIŠIMMAR GUNsa₃ LA₂ṭi [MASK] u ŠE.GIŠ.I₃ NU. . )
+,{m}{d}ŠA₃.ZUMUMU,1,0.0,1.0,( Ša I | An example sentence using this word is  SUMUNšu₂ GUBma IGI.KAR₂ AK.A IM [MASK] Ašu₂ ša₂ {m}{d}ŠA₃.ZUMUMU A. . )
+,{d}amarutu,1,0.0,1.0,( Amarutu I )
+,{mul₂}{d}marduk,1,1.0,0.0,
+,{d}AMAR+UTU,1,0.0,1.0,( Amaru I | An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] ana {d}AMAR+UTU lišši. . )
+wašāru I,49,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,uššarma,1,0.0,1.0,( uššaru I | An example sentence using this word is  [MASK] uššarma ina ITI šalme ina U₄ ŠE.GA ina GE₆ [MASK] GI.DU₈. . )
+,u₂maššar,1,0.0,1.0,( mašāru I | An example sentence using this word is  [MASK] u₂maššar ša₂lultu₄. . )
+,innaaššar,1,0.0,1.0,( našāru I | An example sentence using this word is  ina U₄.14.KAM@v [MASK] [MASK] [MASK] innaaššar. . )
+,umtaššar,1,0.0,1.0,( tašāru I | An example sentence using this word is  DIŠ {mul}KU₆ qu₂liptu umtaššar KU₆MEŠ. . )
+,BARšu₂,1,0.0,1.0,( barû I | An example sentence using this word is  DIŠ u₄mišamma ana GISKIMšu₂ LA₂šu₂ u BARšu₂ U₄ LA₂šu₂ KUM₂ma SAMEŠšu₂ GU₇MEŠšu₂ IR ŠUBsu(KU)ma inaah UD.DA. . )
+,uššuru,1,0.0,1.0,( uššuru I | An example sentence using this word is  ana UNMEŠ ṣalmat SAG.DU uššuru. . )
+,u₂maššar₃u₂šima,1,0.0,1.0,( maššaru I | An example sentence using this word is  [MASK] u₂maššar₃u₂šima. . )
+,išaruma,1,0.0,1.0,( išaru I | An example sentence using this word is  DIŠ ŠA₃MEŠšu₂ išaruma šiiktu₂ [MASK] [MASK] [MASK] SILA₃ [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] tatabal. . )
+,wuuššuur,1,0.0,1.0,( wūšû I | An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] [MASK] piia wuuššuur. . )
+,muššurat,1,0.0,1.0,( muššuru I | An example sentence using this word is  agane₂ti adii pirti muššurat [MASK] [MASK] ŠU.MIN. . )
+,uššar,1,0.0,1.0,( uššaru I | An example sentence using this word is  [MASK] KUR ašriša₂ uššar. . )
+,umtaššira,1,0.0,1.0,( taššaru I | An example sentence using this word is  [MASK] ana KI niibtu₂ umtaššira [MASK] [MASK] LUGAL [MASK] ina KUR. . )
+,tumašša₂ri,1,0.0,1.0,( tumaššu I | An example sentence using this word is  [MASK] la tumašša₂ri. . )
+,umtaššer₃,1,0.0,1.0,( taššaru I | An example sentence using this word is  [MASK] qu₂lip₂ta umtaššer₃ KU₆MEŠ u MUŠENMEŠ. . )
+,umtaššiir,1,0.0,1.0,( taššû I | An example sentence using this word is  {mul}KU₆ [MASK] umtaššiir {mul₄}UDU.IDIM.GU₄.UD. . )
+,mumaššir₃tu₂,1,0.0,1.0,( mumašširu I | An example sentence using this word is  la mumaššir₃tu₂. . )
+,u₂mašša₂ru,1,0.0,1.0,( mašāru I | An example sentence using this word is  [MASK] la u₂mašša₂ru. . )
+,tuaš₂šar,1,0.0,1.0,( tuaššaru I )
+,uššeer,1,0.0,1.0,( uššuru I )
+,uššuri,1,0.0,1.0,( uššuru I | An example sentence using this word is  ša₂ [MASK] uššuri. . )
+,BARšu,1,0.0,1.0,( bar I | An example sentence using this word is  DIŠ KUM₂ U₄ 1.KAM₂ DABsuma U₄ 1.KAM₂ BARšu IM PA₅ TIqe₂ ina [MASK] PA₅. . )
+,BARir,1,0.0,1.0,( barû I | An example sentence using this word is  kalaa BARir ina GI₆ ina IGI {d}AMAR.UTU. . )
+,u₂šir₃ramma,1,0.0,1.0,( širrum I | An example sentence using this word is  DIŠ arebu TA u₂ri u₂šir₃ramma issi BI ihaddu. . )
+,numaššir₃,1,0.0,1.0,( numuš I | An example sentence using this word is  tuh(DAH)talliqanašu₂ ul numaššir₃. . )
+,lumaššir₂šu₂ma,1,0.0,1.0,( lumašširu I | An example sentence using this word is  [MASK] [MASK] [MASK] u ša₂ašu₂ lumaššir₂šu₂ma. . )
+,tumaššir₃anni,1,0.0,1.0,( tumašširu I | An example sentence using this word is  aktalda ana KA₂.GAL UŠ₂ ammiini tumaššir₃anni. . )
+,tumaššaranni,1,0.0,1.0,( tumaššaru I | An example sentence using this word is  ina ŠU.MIN maad šeṭa ana MI₂.UŠ₁₁.ZUMU la tumaššaranni. . )
+,muššur,1,0.0,1.0,( muššuru I | An example sentence using this word is  dullu ša₂ LUGAL muššur ahamiš. . )
+,uššur,1,0.0,1.0,( uššuru I | An example sentence using this word is  [MASK] [MASK] [MASK] uššur. . )
+,nuwašaar,1,0.0,1.0,( nuwaš I )
+,tuwa;šaraam,1,0.0,1.0,( tuwa I | An example sentence using this word is  haranaam la tuwa;šaraam. . )
+,tuwaša;raam,1,0.0,1.0,( tuwašum I | An example sentence using this word is  la tuwaša;raam. . )
+,tumaššarma,1,0.0,1.0,( tumaššaru I | An example sentence using this word is  {dug}NIG₂.DUR₂.BUR₃MEŠ tumaššarma tušken. . )
+,umtaššir₃,1,0.0,1.0,( taššaru I | An example sentence using this word is  [MASK] [MASK] umtaššir₃. . )
+,u₂maššir₃šu₂,1,0.0,1.0,( maššaru I | An example sentence using this word is  [MASK] DINGIRMEŠ u₂ṣuraatu₄ ANe u [MASK] aa u₂maššir₃šu₂. . )
+,lišur,1,0.0,1.0,( lišuru I | An example sentence using this word is  lišur A.ŠA₃ išpikeešu. . )
+,tumaššerini,1,0.0,1.0,( tumaššeru I | An example sentence using this word is  GIM la tumaššerini la. . )
+,u₂mašša₂ruma,1,0.0,1.0,( maššaru I | An example sentence using this word is  [MASK] GIN₇ ša₂ u₂mašša₂ruma. . )
+,u₂šari,1,0.0,1.0,( šarû I | An example sentence using this word is  muuštinnašu₂ pihi muuštinna piilšu₂ ša₂ u₂šari ašar šinaatu₂. . )
+,u₂tašar,1,0.0,1.0,( tašāru I | An example sentence using this word is  tillatu₂ emuqa [MASK] {lu₂}KUR₂ ana KURka u₂tašar [MASK] u₂taaš₂ša₂ar. . )
+,u₂taaš₂ša₂ar,1,0.0,1.0,( tašāru I | An example sentence using this word is  tillatu₂ emuqa [MASK] {lu₂}KUR₂ ana KURka u₂tašar [MASK] u₂taaš₂ša₂ar. . )
+,uššir₃,1,0.0,1.0,( uššuru I | An example sentence using this word is  uššir₃ KI.SIKIL qinna liqnun irru suh₄huru karšum. . )
+,BARšu₂nutima,1,0.0,1.0,( baršu I | An example sentence using this word is  LUGAL [MASK] [MASK] [MASK] {d}UTU.E₃ u {d}UTU.ŠU₂.A LUGAL BARšu₂nutima. . )
+,BARar₂,1,0.0,1.0,( bararu I | An example sentence using this word is  BARar₂ TA E₂ rimki ina E₃šu₂ MAŠ.DA₃ ina GEŠBU SIG₃(IGI)aṣma. . )
+,BARar₂ma,1,0.0,1.0,( bararu I | An example sentence using this word is  ŠIDnu UZ.TUR{mušen} BARar₂ma EN₂ BUR₅ A.AB.BA IN.TU.UD. . )
+,BARMEŠra,1,0.0,1.0,( barma I | An example sentence using this word is  U₂.BAR BURU₁₄ ana ŠED₇ BARMEŠra. . )
+,BARMEŠa,1,0.0,1.0,( barma I | An example sentence using this word is  IM.DIRIMEŠ BARMEŠa. . )
+,BARma,1,0.0,1.0,( bar I | An example sentence using this word is  ŠE ina [MASK] [MASK] GAR DAMsu BARma ša₂nitam. . )
+,u₂mašša₂ra,1,0.0,1.0,( mašāru I | An example sentence using this word is  GIM ummedi u₂mašša₂ra ina ŠU.SIka GALti. . )
+ahāru I,18,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,uhhuruma,1,0.0,1.0,( uhhuru I | An example sentence using this word is  [MASK] [MASK] [MASK] EN.NUN uhhuruma ina ŠA₃.HULšu₂ izku. . )
+,uhhirama,1,0.0,1.0,( uhhiru I | An example sentence using this word is  [MASK] uhhirama IGI.LA₂. . )
+,u₂taahhiraam,1,0.0,1.0,( taahhuru I | An example sentence using this word is  alakaam u₂taahhiraam. . )
+,uhhur,1,0.0,1.0,( uḫḫur I | An example sentence using this word is  BE ina SAG ZE₂ GIŠ.HUR par₂kat₃ ZAGa E u PA₅ NU DIBiq adan {d}UTU uhhur. . )
+,uhhuru,1,0.0,1.0,( uhhuru I | An example sentence using this word is  [MASK] NIGINšu₂ [MASK] [MASK] [MASK] [MASK] [MASK] GIN₂ uhhuru [MASK] šu₂. . )
+,uhhiirma,1,0.0,1.0,( uhhīrum I | An example sentence using this word is  [MASK] MUL [MASK] uhhiirma [MASK] [MASK] [MASK] [MASK] KUR BI. . )
+,uhhiramma,1,0.0,1.0,( uhhiru I | An example sentence using this word is  [MASK] ina ANe uhhiramma ina. . )
+,ZALma,1,0.0,1.0,( zālu I | An example sentence using this word is  šum₄ma MUL BI ZALma [MASK] DIBma IGI. . )
+,U₄.ZALma,1,0.0,1.0,( ūmu I | An example sentence using this word is  šum₄ma MUL BI U₄.ZALma [MASK] LUGAL KUR BI ar₂hiš. . )
+,uhhira,1,0.0,1.0,( uhhuru I | An example sentence using this word is  [MASK] IGIšu₂ ša₂ [MASK] NU GAL₂ LUGAL ŠU₂ ID₂ UŠ₂ir ILLU ina IDIM uhhira ERIN₂ NUN TUR KUR₂ URU EN.NUNia ina. . )
+,uh₂huru,1,0.0,1.0,( uhuru I | An example sentence using this word is  ana u₄mi uh₂huru. . )
+,u₂huru,1,0.0,1.0,( hurru I | An example sentence using this word is  u₃ [MASK] u₂huru. . )
+,tuhuraam,1,0.0,1.0,( tuhuru I | An example sentence using this word is  la tuhuraam. . )
+,uhharamma,1,0.0,1.0,( uhharammu I | An example sentence using this word is  [MASK] ina {d}UTU.E₃ itbal [MASK] ITI [MASK] ina ANe uhharamma. . )
+,uh₂hur,1,0.0,1.0,( uhuru I | An example sentence using this word is  KI {d}UTU uh₂hur [MASK] [MASK] pišti. . )
+,uhharma,1,0.0,1.0,( uhharu I | An example sentence using this word is  DIŠ ŠUBut [MASK] {mul}SAG.ME.GAR u₂tannaat₂ma KIMIN ina ANe uhharma NU IGI. . )
+,uhharuma,1,0.0,1.0,( uhharu I | An example sentence using this word is  DIŠ MULMEŠ ina ANe GAL₂MEŠ [MASK] u₂tannatuma [MASK] ina ANe uhharuma [MASK] IGIME. . )
+,uhhura,1,0.0,1.0,( uhhuru I | An example sentence using this word is  [MASK] [MASK] [MASK] uhhura ša₂. . )
+akâlum,13,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,i-ik-ka-al,1,0.0,1.0,( Ikkal I )
+,i-ku-ul,1,0.0,1.0,( kullatu I | An example sentence using this word is  IGI LUGAL i-ku-ul. . )
+,i-ka-lu,1,0.0,1.0,( kallu I )
+,i-ku-lu,1,0.0,1.0,( iklu I | An example sentence using this word is  DUMU-MEŠ (I)-bi-a-ma i-ku-lu. . )
+,i-ka-al,1,0.0,1.0,( ikālu I | An example sentence using this word is  iš-tu MU A-ŠÀ-lam i-ka-al. . )
+,i-tá-na-ak-ka-lu,1,0.0,1.0,( Itanakkalu I )
+,ki-il,1,0.0,1.0,( kīlu I | An example sentence using this word is  ki-il ka-ar-ṣí ib-ni ṣú-ri-ia. . )
+,a-ka-al,1,0.0,1.0,( akalu I | An example sentence using this word is  a-ka-al SILA₄ ma. . )
+,lu-ku-ul,1,0.0,1.0,( kullatu II | An example sentence using this word is  lu-ku-ul SILA₄ šum-ma. . )
+,ku-ul-šu,1,0.0,1.0,( kullatu II )
+,a-ku-ul,1,0.0,1.0,( akulu I | An example sentence using this word is  MU a-ku-ul. . )
+,i-ta-ka-al,1,0.0,1.0,( Itaqal I )
+,i-ka-la,1,0.0,1.0,( ikālu I | An example sentence using this word is  ri-tam i-ka-la. . )
+šuttu I,18,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,MAŠ₂.GE₆,1,0.0,1.0,( mašû I | An example sentence using this word is  [MASK] MAŠ₂.GE₆ ina. . )
+,MAŠ₂.GI₆MEŠ,1,0.0,1.0,( mašgû I | An example sentence using this word is  KA.INIM.MA HUL MAŠ₂.GI₆MEŠ HULMEŠ par₂daati ana LU₂ NU TEe. . )
+,MAŠ₂.GI₆šu₂,1,0.0,1.0,( mašû I | An example sentence using this word is  [MASK] u₂dammiiqma MAŠ₂.GI₆šu₂ ul. . )
+,MAŠ₂.GI₆MEu₂a,1,0.0,1.0,( mašû I )
+,MAŠ₂.GI₆,1,0.0,1.0,( mašû I | An example sentence using this word is  paris EŠ.BAR DINGIR u LUGAL MAŠ₂.GI₆ annite. . )
+,MAŠ₂.GE₆šu₂,1,0.0,1.0,( mašû I | An example sentence using this word is  [MASK] [MASK] MAŠ₂.GE₆šu₂ KU₃.BABBAR labiš. . )
+,MAŠ₂.GE₆MEŠ,1,0.0,1.0,( mašû I | An example sentence using this word is  INIM.GARšu₂ SI.SA₂ MAŠ₂.GE₆MEŠ SIG₅MEŠ DU₁₁.GA u ŠE.GA GARšu₂. . )
+,MAŠ₂.GE₆MEŠšu₂,1,0.0,1.0,( mašû I | An example sentence using this word is  MAŠ₂.GE₆MEŠšu₂ HULMEŠ ina MAŠ₂.GE₆šu₂ UŠ₂MEŠ IGIMEŠ GAZ lib₃bi TUKUšu₂. . )
+,šunaati,1,0.0,1.0,( šunātu I | An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] DINGIRMEŠ ša₂ šunaati. . )
+,MAŠ₂.GE₂MEŠ,1,0.0,1.0,( mašû I )
+,MAŠ₂.GI₆MEŠua,1,0.0,1.0,( mašgû I | An example sentence using this word is  šat muši lidmi₃qa MAŠ₂.GI₆MEŠua. . )
+,MAŠ₂.GE₆ME,1,0.0,1.0,( mašû I | An example sentence using this word is  taziimtu₂ MAŠ₂.GE₆ME par₂daatu₂ A₂ME GISKIMME. . )
+,MAŠ₂.GE₆u₂a,1,0.0,1.0,( mašû I | An example sentence using this word is  MAŠ₂.GE₆u₂a MAŠ₂.GE₆ aṭṭul ana SIG₅tu₂ GARnu iša₂riš lullik. . )
+,šuutta,1,0.0,1.0,( šūtum I | An example sentence using this word is  u₃ kuu₂ru ibanni šuutta. . )
+,šunatuu₂a,1,0.0,1.0,( šunātu I | An example sentence using this word is  DIŠ šunatuu₂a damqa NE šulme. . )
+,šuutti,1,0.0,1.0,( šūtu I | An example sentence using this word is  u₃ ina šuutti [MASK] gital₂lutu₄ ša₂kinšu₂. . )
+,šuuttu,1,0.0,1.0,( šuṭṭu I | An example sentence using this word is  [MASK] [MASK] dummiiq šuuttu. . )
+,MAŠ.GE₆,1,0.0,1.0,( mašû I | An example sentence using this word is  ana EŠ.BARe u MAŠ.GE₆. . )
+šupêlu I,8,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,ušpelu,1,0.0,1.0,( ušpalu I | An example sentence using this word is  ŠU+MIN BALu₂ ušpelu luu₂ [MASK] luu₂. . )
+,ušpiillu,1,0.0,1.0,( ušpillu I | An example sentence using this word is  DUMU {m}{d}ENeṭe₃ru ana ahamiš₂ ušpiillu. . )
+,ušpeelma,1,0.0,1.0,( ušpēlum I | An example sentence using this word is  kaṣ₃rat {d}+INNIN ušpeelma. . )
+,šupelli,1,0.0,1.0,( šupellu I | An example sentence using this word is  šupelli iqbi LUGALGIN.NA ul ušpeel [MASK] ana e₂saggil₂ uštahmiṭ. . )
+,ušpeel,1,0.0,1.0,( ušpû I | An example sentence using this word is  šupelli iqbi LUGALGIN.NA ul ušpeel [MASK] ana e₂saggil₂ uštahmiṭ. . )
+,šupela,1,0.0,1.0,( šupelu I | An example sentence using this word is  [MASK] [MASK] [MASK] u ṣillaa šupela. . )
+,ušpeelli,1,0.0,1.0,( ušpēlu I | An example sentence using this word is  [MASK] [MASK] ušpeelli. . )
+,šupelu,1,0.0,1.0,( šupelu I | An example sentence using this word is  [MASK] šupelu. . )
+Borsippa I,4,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,bar₂sip₂{ki},1,0.0,1.0,( bītu I | An example sentence using this word is  ina bar₂sip₂{ki} ina E₂. . )
+,barsip₃{ki},1,0.0,1.0,( barsip I | An example sentence using this word is  ina barsip₃{ki} ina {iṣ}mašihu. . )
+,barzip{ki},1,0.0,1.0,( barzip I | An example sentence using this word is  [MASK] barzip{ki}. . )
+,bar(sip)sip{ki},1,0.0,1.0,( sipru I | An example sentence using this word is  bar(sip)sip{ki} {iti}APIN UD.23.KAM@v MU.19.KAM@v. . )
+ṣerhu II,3,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,ṣerha,1,0.0,1.0,( ṣerhu I | An example sentence using this word is  DIŠ {mul}delebat ṣerha NU TUKU [MASK] KALAG u₄mu [MASK] [MASK] ar₂hiš. . )
+,ṣirha,1,0.0,1.0,( ṣirhu I | An example sentence using this word is  [MASK] ṣirha ana {tum₉}KUR.RA GAR KUR {munus}KUR₂ [MASK] NU [MASK] idabbuub [MASK] [MASK] [MASK] ṣirha ana {tum₉}MAR.TU GAR mamitu₄. . )
+,ṣiriihšu₂,1,0.0,1.0,( ṣirītu I | An example sentence using this word is  [MASK] ṣiriihšu₂. . )
+būšānu I,18,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,{u₂}HAB,1,0.0,1.0,( hābu I | An example sentence using this word is  DIŠ {u₂}HAB. . )
+,BI.LU,1,0.0,1.0,( bītu I | An example sentence using this word is  [MASK] BI.LU nahirišu₂ DAB [MASK] {u₂}KUR.RA {na₄}gabii GAZI{sar} ILLU LI.TAR. . )
+,buʾša₂na,1,0.0,1.0,( buʾšu I | An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] KUM₂ illatušu₂ GINku buʾša₂na DIBsu. . )
+,KIR₄.HAB,1,0.0,1.0,( kīru I | An example sentence using this word is  birit [MASK] ittadi {giš}GU.ZAšu₂ ṣii KIR₄.HAB ul. . )
+,U₂.HAB,1,0.0,1.0,( hab I | An example sentence using this word is  GIN₂ U₂.HAB [MASK] GIN₂ {u₂}aktam. . )
+,buʾša₂anu,1,0.0,1.0,( buʾšu I | An example sentence using this word is  [MASK] [MASK] sikkat₂ buʾša₂anu. . )
+,buša₂nu,1,0.0,1.0,( būšu I | An example sentence using this word is  U₂MEŠ ṭipi ša₂ buša₂nu. . )
+,ŠIM.HAB,1,0.0,1.0,( šimtu I | An example sentence using this word is  ŠIM.HAB HI.HI ṭipi ša₂ KIR₄ latku. . )
+,buʾša₂nu,1,0.0,1.0,( buʾšu I | An example sentence using this word is  [MASK] [MASK] buʾša₂nu. . )
+,buša₂ni,1,0.0,1.0,( bušu I )
+,HAB,1,0.0,1.0,( hab I | An example sentence using this word is  NUMUN {u₂}EME UR.GI₇ NUMUN {u₂}HUR.SAG NUMUN HAB NUMUN {u₂}DILI NUMUN kišša₂ni GAZ mal₂mališ. . )
+,buʾša₂ni,1,0.0,1.0,( buʾšu I | An example sentence using this word is  [MASK] [MASK] ša₂ buʾša₂ni KALAGan DABsu GIM UR.MAH napša₂ta₅. . )
+,bušaanu,1,0.0,1.0,( bušānu I | An example sentence using this word is  bušaanu aa ana. . )
+,buuʾša₂nu,1,0.0,1.0,( būʾu I | An example sentence using this word is  [MASK] buuʾša₂nu DABsu tuušru. . )
+,{u₂}bušanu,1,0.0,1.0,( bušû I )
+,{u₂}buša₂nu,1,0.0,1.0,( bušu I | An example sentence using this word is  DIŠ KI MIN {u₂}aktam {u₂}buša₂nu {giš}LI [MASK] DUH.ŠE.GIŠ.I₃ HAD₂.DU GAZ ina. . )
+,KA.HAB.DIB.BA,1,0.0,1.0,( habālu I | An example sentence using this word is  ZU₂.GIG.GA.KE₄ u KA.HAB.DIB.BA. . )
+,{u₂}{šim}LI,1,0.0,1.0,( šim I | An example sentence using this word is  {u₂}{šim}LI U₂ ašii. . )
+išhilṣu I,4,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,ŠIKA,1,0.0,1.0,( šika I | An example sentence using this word is  {u₂}NIG₂.BUR₃.BUR₃ {u₂}nuṣabu ŠIKA NUNUZ GA.NU₁₁{mušen} [MASK] PEŠ₄.ANŠE. . )
+,išhiilṣi,1,0.0,1.0,( išhiilu I | An example sentence using this word is  mamit išhiilṣi liptarriir. . )
+,ŠIKA.KUD.DA,1,0.0,1.0,( šikakku I | An example sentence using this word is  ID₂ A [MASK] [MASK] ina ŠA₃šu₂ ŠIKA.KUD.DA ana kibri ištanaahhiiṭ. . )
+,išhiilṣa,1,0.0,1.0,( išhiilu I | An example sentence using this word is  GU₄HI.A ina SILA.DAGAL.LA [MASK] [MASK] išhiilṣa. . )
+samādu I,3,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,tasamuud,1,0.0,1.0,( tasamu I | An example sentence using this word is  [MASK] tasamuud TEŠ₂.BI ina I₃.UDU GUD HI.HI ina NE. . )
+,asaammad,1,0.0,1.0,( asaammu I | An example sentence using this word is  [MASK] naša₂aka asaammad aballal u akkal. . )
+,saandaat,1,0.0,1.0,( saandatu I | An example sentence using this word is  BE ŠU.SI 15ša₂ u 150ša₂ taaarati saandaat ZIut. . )
+nesû I,11,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,BADma,1,0.0,1.0,( bītu I | An example sentence using this word is  BE ina SUHUŠ [MASK] BADma BUR₃ ŠUBdi ina. . )
+,tene₂essi,1,0.0,1.0,( tenu I | An example sentence using this word is  u₂tammeka {d}UTU ina rabe₂ešu₂ ina SU A [MASK] lu tareeq lu tene₂essi. . )
+,ne₂suti,1,0.0,1.0,( nāsutu I | An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] ne₂suti. . )
+,ne₂sutu₂,1,0.0,1.0,( nāsāḫu I | An example sentence using this word is  [MASK] aluu₂ ne₂sutu₂. . )
+,ne₂sii,1,0.0,1.0,( nāsī I | An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] URU ne₂sii. . )
+,ittesaa,1,0.0,1.0,( ittāsu I | An example sentence using this word is  [MASK] ana {mul}AŠ.GAN₂ ittesaa. . )
+,tušnaassi,1,0.0,1.0,( tušānu I | An example sentence using this word is  duunqi₂ tašar₂rak tušnaassi hiṭu₃. . )
+,ne₂saanni,1,0.0,1.0,( nāsānu I | An example sentence using this word is  kibri [MASK] ne₂saanni. . )
+,liniissa,1,0.0,1.0,( linišu I | An example sentence using this word is  {d}MAŠ EN {giš}TUKUL liniissa PAP.HAL. . )
+,ne₂suu,1,0.0,1.0,( nāsū I | An example sentence using this word is  [MASK] ne₂suu. . )
+,SU₃,1,0.0,1.0,( šū I | An example sentence using this word is  [MASK] KUR SU₃. . )
+burrumu I,6,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,GUN₃,1,0.0,1.0,( gunu I | An example sentence using this word is  DIŠ ina {iti}ŠU U₄.14.KAM@v AN.GI₆ GARma GUN₃ ina KUR URI{ki} GAN₂.BA. . )
+,GUN₃.A,1,0.0,1.0,( gunnu I | An example sentence using this word is  ina {iti}SIG₄ [MASK] [MASK] GARma GUN₃.A. . )
+,{sig₂}GUN₃.A,1,0.0,1.0,( gunnu I | An example sentence using this word is  {na₄}šuu NITA u MUNUS PAP NA₄MEŠ ina {sig₂}GUN₃.A E₃. . )
+,burrumuti,1,0.0,1.0,( burrum I | An example sentence using this word is  burrumuti kaṣaruti DIRI. . )
+,burrumat,1,0.0,1.0,( burru I | An example sentence using this word is  puṣa burrumat ana [MASK] ZU₂šu₂ GARan. . )
+,GUN₃at,1,0.0,1.0,( gunu I | An example sentence using this word is  [MASK] [MASK] GUN₃at. . )
+kurunu I,9,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,kuruna,1,0.0,1.0,( kur I | An example sentence using this word is  daaš₂pa kuruna simat. . )
+,KURUN.NAM,1,0.0,1.0,( mātu I | An example sentence using this word is  [MASK] KURUN.NAM [MASK] ILLAT. . )
+,KURUN,1,0.0,1.0,( mātu I | An example sentence using this word is  ana KURUN ana AKŠAK{ki}. . )
+,kuruunni,1,0.0,1.0,( kuru I | An example sentence using this word is  daaš₂pu kuruunni. . )
+,kuruun,1,0.0,1.0,( kurru I | An example sentence using this word is  [MASK] ina {na₄}NA SUD₂ ina kuruun DIDA HI.HI NAGMEŠ. . )
+,kuruunnu,1,0.0,1.0,( kuru I | An example sentence using this word is  [MASK] miziiʾ ša₂ kabe₂e kuruunnu. . )
+,KAŠ.TIN.NAM,1,0.0,1.0,( kaš I | An example sentence using this word is  muṭahiid KAŠ.TIN.NAM bibil lib₃biki ša tarami. . )
+,kurunu,1,0.0,1.0,( kur I | An example sentence using this word is  kurunu DUG₃.GA. . )
+,KURUNₓ,1,0.0,1.0,( mātu I | An example sentence using this word is  GUBan KURUNₓ LAL₃ [MASK] I₃.GIŠ. . )
+Emme,1,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,e-em-me-e,1,0.0,1.0,( emum I | An example sentence using this word is  a-nu-um-ma e-em-me-e. . )
+muššipu I,1,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,muššipu,1,0.0,1.0,( muššapu I | An example sentence using this word is  [MASK] [MASK] [MASK] muššipu. . )
+nakliš I,1,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,nakliš,1,0.0,1.0,( naklu I | An example sentence using this word is  ana LUGALu₂ti u₂šarrah nakliš. . )
+sabāku I,1,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,su(KIN)ubbuku,1,0.0,1.0,( ubbuku I | An example sentence using this word is  [MASK] mala ibaaššuu₂ lu su(KIN)ubbuku lu puuh₂hurušu. . )
+šukūsu II,1,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,šukusu,1,0.0,1.0,( šukussu I | An example sentence using this word is  SI u₃ šukusu panu LU₂. . )

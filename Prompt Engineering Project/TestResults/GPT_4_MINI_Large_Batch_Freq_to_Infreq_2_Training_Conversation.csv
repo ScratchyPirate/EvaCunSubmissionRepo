@@ -1,0 +1,48 @@
+system,"Using your knowledge of linguistic analysis and language processing you will perform the task of identifying the lemmas of words from ancient cuneiform languages. Ignore English lemmatization rules.
+"
+system,"A lemma is defined as the root form of a word without conjugation. Also known as one that would be listed in a dictionary entry for the word.
+"
+system,"Using your knowledge of linguistic analysis and language processing you will perform the task of identifying the lemmas of words from ancient cuneiform languages.
+"
+system,"""You will be given the word which you need to identify. Sometimes you will be given contextual information"
+system,"Return a single word without explanation nor formatting when asked for the lemma of a word.
+"
+system,"The lemma of  marmarra  is  marmaru I .
+ An example sentence using this word is  marmarra. .
+"
+system,"The lemma of  marmarra  is  marmaru I .
+ An example sentence using this word is  marmarra. .
+"
+system,"The lemma of  {d}ninmaš  is  Ninmaš I .
+"
+system,"The lemma of  {d}ninmaš  is  Ninmaš I .
+"
+system,"The lemma of  {d}šubula₂  is  Šubula I .
+ An example sentence using this word is  {d}išum u {d}šubula₂ DINGIRMEŠ {id₂}IDIGNA u₃. .
+"
+system,"The lemma of  {d}šubula₂  is  Šubula I .
+ An example sentence using this word is  {d}išum u {d}šubula₂ DINGIRMEŠ {id₂}IDIGNA u₃. .
+"
+system,"The lemma of  {d}šu(MA)bula₂  is  Šubula I .
+"
+system,"The lemma of  {d}ninmug  is  Ninmug I .
+"
+system,"The lemma of  {d}ninmug  is  Ninmug I .
+"
+user,"What is the lemma of  marmarra ?
+ An example sentence using this word is  marmarra. .
+"
+assistant,marmaru I
+user,"What is the lemma of  {d}ninmaš ?
+"
+assistant,Ninmaš I
+user,"What is the lemma of  {d}šubula₂ ?
+ An example sentence using this word is  {d}išum u {d}šubula₂ DINGIRMEŠ {id₂}IDIGNA u₃. .
+"
+assistant,Šubula I
+user,"What is the lemma of  {d}šu(MA)bula₂ ?
+"
+assistant,Šubula I
+user,"What is the lemma of  {d}ninmug ?
+"
+assistant,Ninmug I

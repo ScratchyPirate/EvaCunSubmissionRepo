@@ -1,0 +1,224 @@
+Final_1
+Statistical analysis:
+Total Guesses:,105
+Total Akkadian Guesses:,105
+Total Correct Akkadian Guesses:,72,Percent Correct Guesses:,0.6857142857142857
+Total Incorrect Akkadian Guesses:,33,Percent Incorrect Guesses:,0.3142857142857143
+Total Sumerian Guesses:,0
+Total Emesal Guesses:,0
+
+Qualitative analysis:
+Description:,n/a
+Model used:,GPT_4_MINI
+Prompts used:,
+['instruction 1: ', ['The', 'following', 'is', 'a', 'conversation', 'between', 'two', 'Akkadian', 'language', 'experts.', 'One', 'guesses', 'the', 'lemma', 'of', 'a', 'provided', 'clean', 'value', 'while', 'the', 'other', 'indicates', 'whether', 'they', 'are', 'correct', 'or', 'not.', 'Using', 'your', 'knowledge', 'of', 'linguistic', 'analysis', 'and', 'the', 'information', 'shared', 'in', 'this', 'conversation', 'you', 'will', 'perform', 'the', 'task', 'of', 'identifying', 'the', 'lemmas', 'of', 'words', 'from', 'Akkadian.\n']]
+['instruction 2: ', ['A', 'lemma', 'is', 'defined', 'as', 'the', 'root', 'form', 'of', 'a', 'word', 'without', 'conjugation.', 'Also', 'known', 'as', 'one', 'that', 'would', 'be', 'listed', 'in', 'a', 'dictionary', 'entry', 'for', 'the', 'word.\n']]
+['instruction 3: ', ['You', 'will', 'be', 'given', 'the', 'word', 'which', 'you', 'need', 'to', 'identify.', 'Sometimes', 'you', 'will', 'be', 'given', 'contextual', 'information', 'such', 'as', 'the', 'language', 'the', 'word', 'is', 'found', 'in', 'as', 'well', 'as', 'an', 'example', 'of', 'its', 'use', 'in', 'a', 'sentence.', '\n']]
+['instruction 4: ', ['Return', 'a', 'single', 'word', 'without', 'explanation', 'nor', 'formatting', 'when', 'asked', 'for', 'the', 'lemma', 'of', 'a', 'word.\n']]
+['training statement prompt: ', ['The', 'lemma', 'of', '', '[P]', '', 'is', '', '[P]', '.\n']]
+['test question prompt: ', ['What', 'is', 'the', 'lemma', 'of', '', '[P]', '?\n']]
+['example sentence context prompt: ', ['An', 'example', 'sentence', 'using', 'this', 'word', 'is', '', '[P]', '.\n']]
+['negative reinforcement prompt: ', ['Your', 'guess', 'is', 'incorrect.', 'The', 'lemma', 'of', '', '[P]', '', 'is', '', '[P]', '.\n']]
+
+Tested Lemmas:,Total Tests,,Percent Correct,Percent Incorrect,Incorrect Guesses
+tamhuṣu I,1,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,tamhuuṣ,1,0.0,1.0,( amāru I | ina tamhuuṣ kakku )
+mēlultu I,5,0.8,0.2
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,melultu₄,1,0.0,1.0,( melultu I | [MASK] [MASK] ašar melultu₄ )
+,melulti,1,1.0,0.0,
+,milulati,1,1.0,0.0,
+,melulta,1,1.0,0.0,
+,milulti,1,1.0,0.0,
+bēlu I,5,0.8,0.2
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,ENni,1,1.0,0.0,
+,ENURUMEŠ,1,1.0,0.0,
+,{lu₂}ENdababi,1,1.0,0.0,
+,ENE₂,1,0.0,1.0,( ENE I | NIG₂.TUKU UKU₂ ENE₂ BI LUGAL BI )
+,beli₂;ni,1,1.0,0.0,
+asakku I,5,0.8,0.2
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,asakki,1,1.0,0.0,
+,A₂.ZAG₂,1,0.0,1.0,( aššur I | aṭruud A₂.ZAG₂ )
+,A₂.SAG₃,1,1.0,0.0,
+,asaku,1,1.0,0.0,
+,A₂.SAG₃.GIG.GA.TA,1,1.0,0.0,
+māru I,5,0.4,0.6
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,Ašu₂,1,0.0,1.0,( Ašu I | {lu₂}mukinnu {m}šulaa Ašu₂ ša₂ )
+,mari,1,1.0,0.0,
+,DUMU.A.NI,1,0.0,1.0,( DUMU I | [MASK] ŠU [MASK] DUMU.A.NI palih {d}60 {d}50 [MASK] {d}40 )
+,marušu,1,0.0,1.0,( maru I | marušu iippaalšu )
+,ma(ZU)ri,1,1.0,0.0,
+kunnu I,1,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,kunnuu₂,1,1.0,0.0,
+kīma I,5,0.6,0.4
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,GIN₇,1,0.0,1.0,( GIN I | BE ina KI ŠUB AŠ.TE UZU GIN₇ {giš}KAK )
+,LIBIR.RA.BI.GIM,1,0.0,1.0,( LIBIR I | LIBIR.RA.BI.GIM AB.SAR BA.AN.E₃ )
+,kima(GIŠ),1,1.0,0.0,
+,GIN₇ma,1,1.0,0.0,
+,kiima,1,1.0,0.0,
+šamû I,5,0.6,0.4
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,šamee,1,1.0,0.0,
+,ša₂mami,1,0.0,1.0,( šamā I | ina paan {giš}BANšu ezzeti immedu ša₂mami )
+,šamuu₂,1,1.0,0.0,
+,šamešaam,1,1.0,0.0,
+,ANMEŠ,1,0.0,1.0,( AN I | ina {iti}APIN [MASK] GIN₇ [MASK] issi BURU₁₄ KUR ANMEŠ HAD₂MEŠ araar₂ )
+idrānu I,5,0.6,0.4
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,idranu,1,1.0,0.0,
+,KI.NE,1,1.0,0.0,
+,idrana,1,1.0,0.0,
+,idranaatu₄,1,0.0,1.0,( inanna I | {mul}LU.LIM ana [MASK] ittentu [MASK] idranaatu₄ ina KUR )
+,MUN.KI.NE.RA,1,0.0,1.0,( MUN I | DIŠ A.ŠA₃ MUN.KI.NE.RA u₂kal BI )
+matīma I,3,0.6666666666666666,0.3333333333333333
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,matima,1,0.0,1.0,( mātum I | ana matima )
+,U₄.KUR₂.ŠE₃,1,1.0,0.0,
+,matiima,1,1.0,0.0,
+ṣarāpu I,5,0.8,0.2
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,ṣarip,1,1.0,0.0,
+,u₂ṣarrapsu,1,1.0,0.0,
+,u₂ṣarrap,1,1.0,0.0,
+,ṣu₂urrupu,1,0.0,1.0,( ṣuʾru I | ID₂ GIM A [MASK] I₃.GIŠ ṣu₂urrupu ŠE.GIŠ.I₃ NU SI.SA₂ )
+,iṣarrap,1,1.0,0.0,
+mūdû I,5,0.8,0.2
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,muduu,1,0.0,1.0,( mudû I | lu muduu lu la muduu UBURšu₂ )
+,muduu₂,1,1.0,0.0,
+,mudee,1,1.0,0.0,
+,muditum,1,1.0,0.0,
+,mude,1,1.0,0.0,
+šarru I,5,0.4,0.6
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,BARA₂,1,0.0,1.0,( BARA I | [MASK] {d}ZIB₂ BARA₂ KUR EŠ₃.GAL )
+,MANMEŠni,1,0.0,1.0,( MAN I | [MASK] i+na MANMEŠni )
+,LUGALšu,1,1.0,0.0,
+,LUGAL.IM.GI,1,0.0,1.0,( LUGAL I | U₈ [MASK] [MASK] ZIut LUGAL.IM.GI pi₂i [MASK] LUGAL )
+,šarru₃,1,1.0,0.0,
+u I,4,1.0,0.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,u₃,1,1.0,0.0,
+,u,1,1.0,0.0,
+,u₂,1,1.0,0.0,
+,u₃(u₂),1,1.0,0.0,
+aggiš I,1,0.0,1.0
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,aggiš,1,0.0,1.0,( Mullissu I | AN.ŠAR u {d}NIN.LIL₂ aggiš MIRiš )
+ezziš I,5,0.6,0.4
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,HUŠiš,1,1.0,0.0,
+,ezziiš,1,1.0,0.0,
+,ŠUR₂iš,1,0.0,1.0,( ŠUR I | {d}IŠKUR ina MURU₂ {d}UDU.TIL ŠUR₂iš [MASK] {mul}UDU.TIL ana KI imqu₂ut [MASK] U₄MEŠ [MASK] u {tum₉}MAR.TU DUME [MASK] ME [MASK] MUMEŠ KUR )
+,ezziiš₆,1,1.0,0.0,
+,HUŠiš₆,1,0.0,1.0,( aggiš I | u {d}NIN.LIL₂ [MASK] HUŠiš₆ liskipuu₂šu₂ma )
+kaṣû III,5,0.8,0.2
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,kaṣu₂u₂,1,1.0,0.0,
+,tukaṣ₃ṣašu₂ma,1,1.0,0.0,
+,kaṣaa,1,0.0,1.0,( kaṣā I | ina [MASK] [MASK] [MASK] kaṣaa E₂ BI )
+,ikaṣ₃ṣaa,1,1.0,0.0,
+,ikaṣ₃ṣa,1,1.0,0.0,
+emēmu I,5,0.8,0.2
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,imiim,1,0.0,1.0,( imi I | [MASK] GIDIM DABsuma imiim [MASK] KINšu₂ [MASK] haaatašu₂ qerbet )
+,KUM₂,1,1.0,0.0,
+,KUM₂em,1,1.0,0.0,
+,KUM₂mišu₂,1,1.0,0.0,
+,KUM₂MEŠ,1,1.0,0.0,
+ilu I,5,0.8,0.2
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,DINGIRMU,1,1.0,0.0,
+,DINGIRMEŠu₂ka,1,1.0,0.0,
+,DINGIRMEŠni,1,0.0,1.0,( DINGIR I | [MASK] ina tamartišu₂ ina {d}UTU.E₃ [MASK] DINGIRMEŠni ana KUR ana {munus}HUL )
+,DINGIRLU₂,1,1.0,0.0,
+,DIGIRšu₂(UD),1,1.0,0.0,
+ūmu I,5,0.8,0.2
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,ud,1,1.0,0.0,
+,UD.2.KAM@v,1,0.0,1.0,( UD I | bar₂sip₂{ki} {iti}NE UD.2.KAM@v MU.1.KAM@v )
+,UD.28.KAM@v,1,1.0,0.0,
+,U₄ma,1,1.0,0.0,
+,U₄MEŠia₂,1,1.0,0.0,
+mātu I,5,0.4,0.6
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,maata,1,1.0,0.0,
+,KURkunu,1,0.0,1.0,( KUR I | ina KURkunu )
+,KURtika,1,0.0,1.0,( KUR I | [MASK] [MASK] ŠA₃ KURtika terra [MASK] la iluu KURi )
+,matatim,1,1.0,0.0,
+,mada,1,0.0,1.0,( mada I | U₄ ishur mada )
+šiptu I,5,0.8,0.2
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,šipat,1,0.0,1.0,( alāku I | [MASK] [MASK] [MASK] šipat )
+,šiptišu₂,1,1.0,0.0,
+,šipaat,1,1.0,0.0,
+,šiiptika,1,1.0,0.0,
+,šipatku,1,1.0,0.0,
+alāku I,5,0.6,0.4
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,DUma,1,1.0,0.0,
+,GINka,1,0.0,1.0,( kīma I | ammeni GINka )
+,illaak,1,1.0,0.0,
+,GEN{+akaʾ},1,1.0,0.0,
+,attatlak,1,0.0,1.0,( nadû III | [MASK] attatlak {d}er₃ra ana )
+nadû III,5,0.8,0.2
+,WordType: UNKNOWN
+,Language: AKKADIAN
+,Tested Clean Values
+,ŠUBu,1,1.0,0.0,
+,addika,1,1.0,0.0,
+,ŠUBimma,1,1.0,0.0,
+,iddaa,1,0.0,1.0,( izuzzu I | [MASK] [MASK] [MASK] [MASK] [MASK] ana AMEŠ iddaa )
+,tanamduu₂,1,1.0,0.0,

@@ -1,0 +1,526 @@
+system,"The following is a conversation between two Akkadian language experts. One guesses the lemma of a provided clean value while the other indicates whether they are correct or not. Using your knowledge of linguistic analysis and the information shared in this conversation you will perform the task of identifying the lemmas of words from Akkadian.
+"
+system,"A lemma is defined as the root form of a word without conjugation. Also known as one that would be listed in a dictionary entry for the word.
+"
+system,"You will be given the word which you need to identify. Sometimes you will be given contextual information such as the language the word is found in as well as an example of its use in a sentence. 
+"
+system,"Return a single word without explanation nor formatting when asked for the lemma of a word.
+"
+system,"The lemma of  ina  is  ina I .
+ An example sentence using this word is  [MASK] MINma ina {im}SI iznun .
+"
+system,"The lemma of  ina  is  ina I .
+ An example sentence using this word is  [MASK] MINma ina {im}U₁₈ iznun .
+"
+system,"The lemma of  iṣṣe₂riia  is  ina I .
+ An example sentence using this word is  tuša iṣṣe₂riia su₂uppaam teliia .
+"
+system,"The lemma of  ina+kalli  is  ina I .
+ An example sentence using this word is  I₃.UDU ELLAG₂ GU₄ ina+kalli gulgul LU₂.U₁₉.LU .
+"
+system,"The lemma of  ša₂  is  ša I .
+ An example sentence using this word is  DIŠ [MASK] KUR BI UŠ₂ma KUR ša₂ HUL IGI SIG₅ IGI UŠ₂MEŠ GAL₂MEŠ .
+"
+system,"The lemma of  ša₂  is  ša I .
+ An example sentence using this word is  DIŠ [MASK] KUR BI UŠ₂ma KUR ša₂ HUL IGI SIG₅ IGI UŠ₂MEŠ GAL₂MEŠ .
+"
+system,"The lemma of  LU₂.NIG₂.EGIR.NI  is  ša I .
+"
+system,"The lemma of  {lu₂}ša₂našišu₂  is  ša I .
+ An example sentence using this word is  {m}Aa A {lu₂}ša₂našišu₂ .
+"
+system,"The lemma of  ana  is  ana I .
+ An example sentence using this word is  DIŠ KIMIN [MASK] EN [MASK] [MASK] KAN₅ [MASK] ana {d}UTU.E₃ u {d}UTU.ŠU₂.A DUMU LUGAL ARADšu₂ ana KUR₂ ŠUM₂MEŠšu₂ .
+"
+system,"The lemma of  ana  is  ana I .
+ An example sentence using this word is  belu₄ kunnuu₂ ana beli₃ .
+"
+system,"The lemma of  ZAG.TIL.LA.BI.ŠE₃  is  ana I .
+ An example sentence using this word is  ša₂ NAGAR tiikpi ša₂ [MASK] ZAG.TIL.LA.BI.ŠE₃ .
+"
+system,"The lemma of  ana{d}600paqadi  is  ana I .
+ An example sentence using this word is  [MASK] [MASK] [MASK] ana{d}600paqadi .
+"
+system,"The lemma of  DIŠ  is  šumma I .
+ An example sentence using this word is  DIŠ KIMIN [MASK] EN [MASK] [MASK] KAN₅ [MASK] ana {d}UTU.E₃ u {d}UTU.ŠU₂.A DUMU LUGAL ARADšu₂ ana KUR₂ ŠUM₂MEŠšu₂ .
+"
+system,"The lemma of  DIŠ  is  šumma I .
+ An example sentence using this word is  DIŠ [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] ana LUGAL LUGALME GAMMEšu₂ la haassu AŠ.TE DABbat .
+"
+system,"The lemma of  TUKUM.BI  is  šumma I .
+ An example sentence using this word is  TUKUM.BI [MASK] SAG.KI DABsu {giš}DIH₃ ša inazuzu ŠU.TI .
+"
+system,"The lemma of  šum₂mu  is  šumma I .
+ An example sentence using this word is  ittaṣu šum₂mu A.ŠA₃.GA .
+"
+user,"What is the lemma of  u₃ ?
+ An example sentence using this word is  diinim u₃ biri išariiš apalaanni .
+"
+assistant,u I
+user,"What is the lemma of  u ?
+ An example sentence using this word is  [MASK] u nammašša₂a qatukka ipqid .
+"
+assistant,u I
+user,"What is the lemma of  u₂ ?
+ An example sentence using this word is  u₂ umma .
+"
+assistant,u I
+user,"What is the lemma of  u₃(u₂) ?
+ An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] ina qabal [MASK] [MASK] ša₂ šarbu u₃(u₂) ṣeetu₄ .
+"
+assistant,u I
+user,"What is the lemma of  KURti ?
+ An example sentence using this word is  GU₃ luša₂buu₂ ina KURti .
+"
+assistant,KUR I
+user," Your guess is incorrect. The lemma of  KURti  is  mātu I .
+What is the lemma of  KURkama ?
+ An example sentence using this word is  [MASK] [MASK] [MASK] ina KURkama .
+"
+assistant,mātu I
+user,"What is the lemma of  maatu₄ ?
+ An example sentence using this word is  [MASK] maatu₄ .
+"
+assistant,mātu I
+user,"What is the lemma of  KURšina ?
+ An example sentence using this word is  {d}UTU SIPA ša₂ KURšina .
+"
+assistant,mātu I
+user,"What is the lemma of  matuum ?
+ An example sentence using this word is  u₃ matuum dububaat .
+"
+assistant,mātu I
+user,"What is the lemma of  šar(ŠIR₃)ri ?
+ An example sentence using this word is  [MASK] {d}aa kallati [MASK] šar(ŠIR₃)ri .
+"
+assistant,šar I
+user," Your guess is incorrect. The lemma of  šar(ŠIR₃)ri  is  šarru I .
+What is the lemma of  lugal ?
+ An example sentence using this word is  lugal [MASK] [MASK] [MASK] iramuk .
+"
+assistant,lugal I
+user," Your guess is incorrect. The lemma of  lugal  is  šarru I .
+What is the lemma of  LUGALša₂ ?
+ An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] KUR ana qabe₂e LUGALša₂ TUŠab .
+"
+assistant,šarru I
+user,"What is the lemma of  šarani ?
+ An example sentence using this word is  ab₂ šarani .
+"
+assistant,šarru I
+user,"What is the lemma of  šarri₃ ?
+ An example sentence using this word is  niiq šarri₃ GU₄ NIGAMEŠ .
+"
+assistant,šarru I
+user,"What is the lemma of  ŠA₃bišu₂ ?
+ An example sentence using this word is  ina ŠA₃bišu₂ .
+"
+assistant,šarru I
+user," Your guess is incorrect. The lemma of  ŠA₃bišu₂  is  libbu I .
+What is the lemma of  libbuuk ?
+ An example sentence using this word is  [MASK] libbuuk etellet u₃ .
+"
+assistant,libbu I
+user,"What is the lemma of  ŠA₃ša₂ ?
+ An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] ŠA₃ša₂ u₂niih .
+"
+assistant,libbu I
+user,"What is the lemma of  {giš}ŠA₃ ?
+ An example sentence using this word is  {giš}ŠA₃ GIŠIMMAR ana ŠA₃ {giš}ŠA₃ GIŠIMMAR ina [MASK] ana E₂ {d}IDIM .
+"
+assistant,libbu I
+user,"What is the lemma of  libišu ?
+ An example sentence using this word is  ana libišu teruub .
+"
+assistant,libbu I
+system,"The lemma of  DINGIRMEŠ  is  ilu I .
+ An example sentence using this word is  DINGIRMEŠ [MASK] šuuzkiršunutima .
+"
+system,"The lemma of  U₄  is  ūmu I .
+ An example sentence using this word is  [MASK] [MASK] DUB.SAR U₄ AN .
+"
+system,"The lemma of  GIM  is  kīma I .
+ An example sentence using this word is  ina [MASK] ŠA₃.NIGIN GIM [MASK] {giš}NA₂ .
+"
+system,"The lemma of  EN  is  bēlu I .
+ An example sentence using this word is  ana {d}AMAR.UTU EN .
+"
+user,"What is the lemma of  IGI ?
+ An example sentence using this word is  IGI DINGIRtika .
+"
+assistant,ilu I
+user," Your guess is incorrect. The lemma of  IGI  is  pānu I .
+What is the lemma of  panu ?
+ An example sentence using this word is  SI u₃ šukusu panu LU₂ .
+"
+assistant,pānu I
+user,"What is the lemma of  paniki ?
+ An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] u₂sa₃ahharki [MASK] [MASK] [MASK] {im}KUR.RA [MASK] u₂sa₃har paniki ana .
+"
+assistant,pānu I
+user,"What is the lemma of  IGIia ?
+ An example sentence using this word is  IGIia u₂kin .
+"
+assistant,pānu I
+user,"What is the lemma of  panikama ?
+ An example sentence using this word is  alik panikama u₂šamqata .
+"
+assistant,pānu I
+user,"What is the lemma of  ibba₂ašši ?
+ An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] [MASK] ašar pašišuti ibba₂ašši .
+"
+assistant,ibbu I
+user," Your guess is incorrect. The lemma of  ibba₂ašši  is  bašû I .
+What is the lemma of  ibašuu ?
+ An example sentence using this word is  ša₂ nuuhhi ulṣu ullanuušša₂ maamman la ibašuu ištu₂ .
+"
+assistant,bašû I
+user,"What is the lemma of  ittabtuši ?
+ An example sentence using this word is  u₃ hilu ittabtuši ina .
+"
+assistant,bašû I
+user,"What is the lemma of  ibaaš₂šima ?
+ An example sentence using this word is  [MASK] ibaaš₂šima muti luu .
+"
+assistant,bašû I
+user,"What is the lemma of  bašu₂(ša₂)u₂ ?
+ An example sentence using this word is  bašu₂(ša₂)u₂ ittišu₂ ina muhhi .
+"
+assistant,bašû I
+user,"What is the lemma of  {lu₂}KUR₂šu₂ ?
+ An example sentence using this word is  LU₂ NU TEe u kipdi {lu₂}KUR₂šu₂ .
+"
+assistant,mātu I
+user," Your guess is incorrect. The lemma of  {lu₂}KUR₂šu₂  is  nakru I .
+What is the lemma of  nakiruu₂a ?
+"
+assistant,nakru I
+user,"What is the lemma of  KUR₂ka ?
+ An example sentence using this word is  [MASK] [MASK] KUR₂ka ana .
+"
+assistant,mātu I
+user," Your guess is incorrect. The lemma of  KUR₂ka  is  nakru I .
+What is the lemma of  KUR₂šu₂ ?
+ An example sentence using this word is  [MASK] GEŠTUGMEŠšu₂ ina papaan ŠA₃šu₂ GARna NIG₂.HA.LAM.MA KUR NUN NUN ana KUR₂šu₂ KA LALa GARan .
+"
+assistant,nakru I
+user,"What is the lemma of  {lu₂}KUR₂kunu ?
+"
+assistant,nakru I
+user,"What is the lemma of  a₃wilu₂ ?
+ An example sentence using this word is  DIŠ {d}NIN.NINNA₂{mušen} ana E₂ a₃wilu₂ u₂šiir₇ma issi BE .
+"
+assistant,awīlu I
+user,"What is the lemma of  amilaku ?
+ An example sentence using this word is  [MASK] amilaku .
+"
+assistant,awīlu I
+user,"What is the lemma of  awili₃ ?
+ An example sentence using this word is  ana E₂ awili₃ [MASK] ina erebiki .
+"
+assistant,awīlu I
+user,"What is the lemma of  LU₂.U₁₈.LU ?
+ An example sentence using this word is  [MASK] {u₂}IGIlim {u₂}IGI20 GIR₃.PAD.DU LU₂.U₁₈.LU ina KUŠ .
+"
+assistant,awīlu I
+user,"What is the lemma of  awilum ?
+ An example sentence using this word is  awilum ahi la kali .
+"
+assistant,awīlu I
+system,"The lemma of  lu  is  lū I .
+ An example sentence using this word is  lu ša₂ I₃.UDU lu ša₂ DU₈.LAL₃ lu .
+"
+system,"The lemma of  GUB  is  izuzzu I .
+ An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] GUB ina MU BI [MASK] [MASK] ana KUR TUR SILIMma KIN .
+"
+system,"The lemma of  GUB  is  izuzzu I .
+ An example sentence using this word is  [MASK] [MASK] DUNGU GUB [MASK] DUkam(KUR) suhurree UNMEŠ GAL₂ .
+"
+system,"The lemma of  u₂ša₂azzaazma  is  izuzzu I .
+ An example sentence using this word is  naši u₂ša₂azzaazma itti .
+"
+system,"The lemma of  ulziizzaanni  is  izuzzu I .
+ An example sentence using this word is  iaaši abi {d}naannaru ulziizzaanni šutabuul tereeti azzaaz .
+"
+system,"The lemma of  ŠUBdi  is  nadû III .
+ An example sentence using this word is  {d}IŠKUR ina MURU₂ [MASK] GU₃šu₂ ŠUBdi DIGIRMEŠ KUR ARHUŠ .
+"
+system,"The lemma of  ŠUBdi  is  nadû III .
+ An example sentence using this word is  I₃ {giš}EREN ana SAG.DUšu₂ ŠUBdi hiibṣa ina sahle₂e GU₇ .
+"
+system,"The lemma of  u₂šaaddiaannima  is  nadû III .
+ An example sentence using this word is  erešaam u₂šaaddiaannima .
+"
+system,"The lemma of  ittanamduu₂  is  nadû III .
+"
+system,"The lemma of  EN₂  is  šiptu I .
+ An example sentence using this word is  [MASK] [MASK] EN₂ .
+"
+system,"The lemma of  EN₂  is  šiptu I .
+ An example sentence using this word is  [MASK] EN₂ .
+"
+system,"The lemma of  šipatkunu  is  šiptu I .
+ An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] idaama šipatkunu ša₂ bulṭi .
+"
+system,"The lemma of  šiiptika  is  šiptu I .
+ An example sentence using this word is  [MASK] šiiptika [MASK] ullilma .
+"
+user,"What is the lemma of  ša₂dahu ?
+ An example sentence using this word is  [MASK] ša₂dahu ša₂ {d}+enlil {d}beletKA₂.DINGIR.MEŠ .
+"
+assistant,šiptu I
+user," Your guess is incorrect. The lemma of  ša₂dahu  is  šadāhu I .
+What is the lemma of  išaddihu ?
+ An example sentence using this word is  abu [MASK] ša₂ ina tidiiq rubutu₂ išaddihu etelli DINGIRMEŠ .
+"
+assistant,šadāhu I
+user,"What is the lemma of  ša₂dahišu₂ ?
+ An example sentence using this word is  [MASK] [MASK] ina ša₂dahišu₂ ana [MASK] [MASK] KUR [MASK] [MASK] ina 15šu₂ .
+"
+assistant,šadāhu I
+user,"What is the lemma of  šadahišu₂ ?
+ An example sentence using this word is  [MASK] ina šadahišu₂ ina GU₄.UDšu₂ .
+"
+assistant,šadāhu I
+user,"What is the lemma of  išaddiha ?
+ An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] šalmeš išaddiha .
+"
+assistant,šadāhu I
+user,"What is the lemma of  at-ti ?
+ An example sentence using this word is  at-ti i-ir-ti sà-sí-ia .
+"
+assistant,at I
+user," Your guess is incorrect. The lemma of  at-ti  is  atti .
+What is the lemma of  at-ti-ma ?
+ An example sentence using this word is  um-ma at-ti-ma .
+"
+assistant,atti
+user,"What is the lemma of  {m}imbiia ?
+ An example sentence using this word is  Ašu₂ ša₂ {m}imbiia A {m}kidin{d}AMAR.UTU .
+"
+assistant,mimma I
+user," Your guess is incorrect. The lemma of  {m}imbiia  is  Imbiya I .
+What is the lemma of  maaqlaa ?
+ An example sentence using this word is  ema maaqlaa .
+"
+assistant,maqāla I
+system,"The lemma of  aṭ-ṭar-dam  is  ṭarâdum .
+ An example sentence using this word is  a-na ma-ah-ri-ku-nu aṭ-ṭar-dam .
+"
+system,"The lemma of  aṭ-ṭar-dam  is  ṭarâdum .
+ An example sentence using this word is  a-na ma-ah-ri-ku-nu aṭ-ṭar-dam .
+"
+system,"The lemma of  ṭú-ur-da-ni-iš-šu-nu-ti  is  ṭarâdum .
+ An example sentence using this word is  ar-hi-iš ṭú-ur-da-ni-iš-šu-nu-ti .
+"
+system,"The lemma of  aṭ-ṭar-da-ak-ku-šu-nu-ti  is  ṭarâdum .
+ An example sentence using this word is  a-nu-um-ma a-na ṣe-ri-ka aṭ-ṭar-da-ak-ku-šu-nu-ti .
+"
+system,"The lemma of  naaplaas₃tum  is  naplastu I .
+"
+system,"The lemma of  naaplaas₃tum  is  naplastu I .
+"
+system,"The lemma of  dudiittu₂  is  tudittu I .
+ An example sentence using this word is  [MASK] [MASK] GIR₃.PAD.RA₂ DINGIRu₂tu₂ MU₄šu₂ dudiittu₂ .
+"
+system,"The lemma of  dudiittu₂  is  tudittu I .
+ An example sentence using this word is  [MASK] [MASK] GIR₃.PAD.RA₂ DINGIRu₂tu₂ MU₄šu₂ dudiittu₂ .
+"
+system,"The lemma of  tudinaat  is  tudittu I .
+ An example sentence using this word is  TUG₂ hašmana MU₄.MU₄si tudinaat KU₃.GI tunamdasi .
+"
+system,"The lemma of  dudinaaša₂  is  tudittu I .
+ An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] dudinaaša₂ .
+"
+system,"The lemma of  emšišu₂  is  emšu I .
+ An example sentence using this word is  emšišu₂ [MASK] U₄BI LUGUD₂.DAMEŠ .
+"
+system,"The lemma of  emšišu₂  is  emšu I .
+ An example sentence using this word is  emšišu₂ [MASK] U₄BI LUGUD₂.DAMEŠ .
+"
+user,"What is the lemma of  muutti ?
+ An example sentence using this word is  mušaqquu₂ muutti ša DINGIR u LU₂ .
+"
+assistant,mūt I
+user," Your guess is incorrect. The lemma of  muutti  is  muttu I .
+What is the lemma of  itaanniša₂ ?
+ An example sentence using this word is  [MASK] itaanniša₂ nunu ul uṣṣuu .
+"
+assistant,muttu I
+user," Your guess is incorrect. The lemma of  itaanniša₂  is  itannu I .
+What is the lemma of  im-gu-ur ?
+ An example sentence using this word is  MEŠ ša be-lí-ia aq-bi-šum-ma ú-ul im-gu-ur ṭup-pa-tim šu-ma ik-nu-uk .
+"
+assistant,imuru I
+user," Your guess is incorrect. The lemma of  im-gu-ur  is  magârum .
+What is the lemma of  ma-ga-ru-šu ?
+ An example sentence using this word is  ma-ga-ru-šu be-lí GU-ZA-šu .
+"
+assistant,magârum
+user,"What is the lemma of  {m}{d}anuanaE₂šu₂ ?
+ An example sentence using this word is  {m}{d}anuanaE₂šu₂ DUMU .
+"
+assistant,anû I
+user," Your guess is incorrect. The lemma of  {m}{d}anuanaE₂šu₂  is  Anu-ana-bitišu I .
+What is the lemma of  {m}{d}60anaE₂šu₂ ?
+ An example sentence using this word is  {m}{d}60MUMU {m}{d}60anaE₂šu₂ DUMU ša₂ .
+"
+assistant,Anu-ana-bitišu I
+system,"The lemma of  ANe  is  šamû I .
+ An example sentence using this word is  matima išid ANe kima [MASK] ṣarip luu .
+"
+system,"The lemma of  ANe  is  šamû I .
+ An example sentence using this word is  [MASK] [MASK] ANe tiib {im}U₁₈.LU .
+"
+system,"The lemma of  IN.ŠI.IN.SA₁₀  is  šamû I .
+"
+system,"The lemma of  GIŠ{+ANu₂}  is  šamû I .
+ An example sentence using this word is  DIŠ GIŠ{+ANu₂} [MASK] {im}UR₃{+ašamša₂tu₄} .
+"
+system,"The lemma of  URU  is  ālu I .
+ An example sentence using this word is  [MASK] [MASK] arad URU ana {giš}TUKUL ŠUBti SIGi .
+"
+system,"The lemma of  A  is  mû I .
+ An example sentence using this word is  ina A .
+"
+system,"The lemma of  ŠU  is  qātu I .
+ An example sentence using this word is  takṣiranu latkutu₄ baruti ša₂ ana ŠU šuṣu₂u₂ .
+"
+user,"What is the lemma of  GALMEŠ ?
+ An example sentence using this word is  DINGIRMEŠ GALMEŠ ŠA₃ka liṭibbu .
+"
+assistant,galmu I
+user," Your guess is incorrect. The lemma of  GALMEŠ  is  rabû I .
+What is the lemma of  rabuu₂ ?
+ An example sentence using this word is  ša₂duu₂ rabuu₂ {d}+enlil₂ [MASK] ša₂ reša₂šu₂ ša₂mami ša₂anna [MASK] ellu šuršudu uššu₂šu₂ .
+"
+assistant,rabû I
+user,"What is the lemma of  GAL ?
+ An example sentence using this word is  EN₂ rubatu₄ GAL .
+"
+assistant,rabû I
+user,"What is the lemma of  rabuu ?
+ An example sentence using this word is  ša šadii duuršu₂nu rabuu anaku šigaršu₂nu GALu₂ anaku tanadatuua .
+"
+assistant,rabû I
+user,"What is the lemma of  {lu₂}GAL ?
+ An example sentence using this word is  DA E₂ [MASK] {lu₂}GAL E₂ ša₂ {lu₂}DUMU LUGAL .
+"
+assistant,rabû I
+user,"What is the lemma of  AN.GI₇ ?
+ An example sentence using this word is  [MASK] GIN₇ AN.GI₇ .
+"
+assistant,rabû I
+user," Your guess is incorrect. The lemma of  AN.GI₇  is  antalû I .
+What is the lemma of  AN.GI₆šu₂ ?
+ An example sentence using this word is  [MASK] [MASK] [MASK] ina AN.GI₆šu₂ .
+"
+assistant,antalû I
+user,"What is the lemma of  AN.GI₆ ?
+ An example sentence using this word is  [MASK] [MASK] [MASK] AN.GI₆ EN.NUN .
+"
+assistant,antalû I
+user,"What is the lemma of  AN.GE₆ ?
+ An example sentence using this word is  [MASK] AN.GE₆ [MASK] ina .
+"
+assistant,antalû I
+user,"What is the lemma of  AN.GI₆BI ?
+ An example sentence using this word is  TARMEŠ [MASK] AN.GI₆BI uštabri .
+"
+assistant,antalû I
+user,"What is the lemma of  ultu ?
+ An example sentence using this word is  uhhulu SInu ša₂ ultu .
+"
+assistant,ultu I
+user," Your guess is incorrect. The lemma of  ultu  is  ištu I .
+What is the lemma of  TA ?
+ An example sentence using this word is  TA [MASK] ITI TA [MASK] ŠEG₃ME ina ANe ILLUME ina [MASK] GINni {d}IŠKUR RAiṣ ERIN₂ [MASK] [MASK] ZAH₂ .
+"
+assistant,ta I
+user," Your guess is incorrect. The lemma of  TA  is  ištu I .
+What is the lemma of  TA@v ?
+ An example sentence using this word is  [MASK] TA@v [MASK] ENURUMEŠ .
+"
+assistant,ištu I
+user,"What is the lemma of  ultu₂ ?
+ An example sentence using this word is  [MASK] [MASK] [MASK] iššir [MASK] guqanu ultu₂ [MASK] [MASK] [MASK] ša₂ .
+"
+assistant,ištu I
+user,"What is the lemma of  ištu₂ ?
+ An example sentence using this word is  ša₂ nuuhhi ulṣu ullanuušša₂ maamman la ibašuu ištu₂ .
+"
+assistant,ištu I
+user,"What is the lemma of  BI ?
+ An example sentence using this word is  E₂ BI [MASK] imši .
+"
+assistant,bi I
+user," Your guess is incorrect. The lemma of  BI  is  šū I .
+What is the lemma of  šu₂ma ?
+ An example sentence using this word is  šur [MASK] ki šu₂ma .
+"
+assistant,šū I
+user,"What is the lemma of  šuu₂ ?
+ An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] ana IR₃ka šuu₂ .
+"
+assistant,šū I
+user,"What is the lemma of  šu₂atu ?
+ An example sentence using this word is  [MASK] ema šipru šu₂atu [MASK] šaknuma .
+"
+assistant,šū I
+user,"What is the lemma of  šu₂atu₂ ?
+ An example sentence using this word is  ema šipru šu₂atu₂ E₂ukka .
+"
+assistant,šū I
+system,"The lemma of  ṣarṣari  is  ṣarṣaru I .
+ An example sentence using this word is  appi irri BIL.ZA.ZA PA ṣarṣari ša₂ GUB₃ I₃.UDU GIR₃.PAD.DU GID₂.DA ša₂ KUR.GI{mušen} HAD₂.DU GAZ SIM .
+"
+system,"The lemma of  ṣarṣari  is  ṣarṣaru I .
+ An example sentence using this word is  appi irri BIL.ZA.ZA PA ṣarṣari ša₂ GUB₃ I₃.UDU GIR₃.PAD.DU GID₂.DA ša₂ KUR.GI{mušen} HAD₂.DU GAZ SIM .
+"
+system,"The lemma of  ugbabatim  is  ugbabtu I .
+ An example sentence using this word is  DABIN [MASK] ugbabatim .
+"
+system,"The lemma of  ugbabatim  is  ugbabtu I .
+ An example sentence using this word is  DABIN [MASK] ugbabatim .
+"
+system,"The lemma of  ugbaabtu₄  is  ugbabtu I .
+ An example sentence using this word is  [MASK] ugbaabtu₄ .
+"
+system,"The lemma of  dariiš  is  dāriš I .
+ An example sentence using this word is  {d}+enlil₂ u₃ {d}ninurta dariiš u₄mi .
+"
+system,"The lemma of  dariiš  is  dāriš I .
+ An example sentence using this word is  dariiš u₄mi .
+"
+system,"The lemma of  dariš  is  dāriš I .
+ An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] dariš .
+"
+system,"The lemma of  {iti}ZIZ₂  is  Šabaṭu I .
+ An example sentence using this word is  A bar₂sip₂{ki} {iti}ZIZ₂ UD.15.KAM@v .
+"
+system,"The lemma of  {iti}ZIZ₂  is  Šabaṭu I .
+ An example sentence using this word is  {iti}ZIZ₂ UD.20.1.LAL.KAM@v MU.4.KAM@v .
+"
+user,"What is the lemma of  zu-na-we-e-(ki) ?
+ An example sentence using this word is  LÚ zu-na-we-e-(ki) .
+"
+assistant,zu I
+user," Your guess is incorrect. The lemma of  zu-na-we-e-(ki)  is  Zunawû .
+What is the lemma of  maargi₄ ?
+ An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] maargi₄ .
+"
+assistant,margu I
+user," Your guess is incorrect. The lemma of  maargi₄  is  margû I .
+What is the lemma of  mesaatu₂ ?
+ An example sentence using this word is  mamit niš ŠU+MIN la mesaatu₂ u niš DINGIRMEŠ zakari .
+"
+assistant,mesû I
+user,"What is the lemma of  {d}ningir₂su ?
+ An example sentence using this word is  EN GALu₂ ša₂ ina bališu₂ {d}ningir₂su AŠ.GAN₂ u palgi .
+"
+assistant,ningir I
+user," Your guess is incorrect. The lemma of  {d}ningir₂su  is  Ningirsu I .
+What is the lemma of  {d}nin.gir₂.su ?
+ An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] I₇ {d}nin.gir₂.su .
+"
+assistant,Ningirsu I

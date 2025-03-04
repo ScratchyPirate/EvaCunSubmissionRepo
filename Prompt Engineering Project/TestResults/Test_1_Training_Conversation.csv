@@ -1,0 +1,1143 @@
+system,"Using your knowledge of linguistic analysis and language processing you will perform the task of identifying the lemmas of words from ancient cuneiform languages. Ignore English lemmatization rules.
+"
+system,"A lemma is defined as the root form of a word without conjugation. Also known as one that would be listed in a dictionary entry for the word.
+"
+system,"Using your knowledge of linguistic analysis and language processing you will perform the task of identifying the lemmas of words from ancient cuneiform languages.
+"
+system,"""You will be given the word which you need to identify. Sometimes you will be given contextual information"
+system,"Return a single word without explanation nor formatting when asked for the lemma of a word.
+"
+system,"The lemma of  ina  is  ina I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] MINma ina {im}KUR iznun. .
+"
+system,"The lemma of  ina  is  ina I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] MINma ina {im}KUR iznun. .
+"
+system,"The lemma of  iṣṣe₂riia  is  ina I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  tuša iṣṣe₂riia su₂uppaam teliia. .
+"
+system,"The lemma of  ina+kalli  is  ina I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  I₃.UDU ELLAG₂ GU₄ ina+kalli gulgul LU₂.U₁₉.LU. .
+"
+system,"The lemma of  ša₂  is  ša I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] ša₂ {d}SAG.ME.GAR. .
+"
+system,"The lemma of  ša₂  is  ša I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] ša₂. .
+"
+system,"The lemma of  LU₂.NIG₂.EGIR.NI  is  ša I .
+ This word is found in the language of  AKKADIAN .
+"
+system,"The lemma of  {lu₂}ša₂našišu₂  is  ša I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  {m}Aa A {lu₂}ša₂našišu₂. .
+"
+system,"The lemma of  u  is  u I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] u SED. .
+"
+system,"The lemma of  KUR  is  mātu I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  DIŠ LUGAL ina MU [MASK] UŠ₂ma KUR ša₂ HUL IGI SIG₅ IGI buli₃ ZAH₂ [MASK] GANBA TUR UZU NAM.LU₂.U₁₈.LU GU₇. .
+"
+system,"The lemma of  LUGAL  is  šarru I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] LUGAL [MASK] ana KUR₂ ŠUM₂MEŠšu₂ [MASK] LUGAL URI{ki} UŠ₂. .
+"
+system,"The lemma of  LUGAL  is  šarru I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  DIŠ KIMIN [MASK] EN [MASK] [MASK] KAN₅ [MASK] ana {d}UTU.E₃ u {d}UTU.ŠU₂.A DUMU LUGAL ARADšu₂ ana KUR₂ ŠUM₂MEŠšu₂. .
+"
+system,"The lemma of  šar(ŠIR₃)ri  is  šarru I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] {d}aa kallati [MASK] šar(ŠIR₃)ri. .
+"
+system,"The lemma of  LUGALMEŠšinaama  is  šarru I .
+ This word is found in the language of  AKKADIAN .
+"
+system,"The lemma of  DUMU  is  māru I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  DIM₁₀.ME DUMU. .
+"
+system,"The lemma of  E₂  is  bītu I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  E₂ IM ina SAG DU₃uš ana ŠA₃ tušešebšu₂. .
+"
+system,"The lemma of  la  is  lā I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] la teruub. .
+"
+system,"The lemma of  la  is  lā I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  nubatti la tabaatu₂. .
+"
+system,"The lemma of  MUNUS.NU.SI.SA₂  is  lā I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] MUNUS.NU.SI.SA₂. .
+"
+system,"The lemma of  IGI.NU.TUKU  is  lā I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  BE MUNUS IGI.NU.TUKU U₃.TU KUR E₂ LU₂ NU SI.SA₂. .
+"
+system,"The lemma of  GARan  is  šakānu I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  NIG₂.NA {šim}LI GARan ŠE.NUMUN DUBaq UDU.SISKUR₂ BALqi₂. .
+"
+system,"The lemma of  ŠA₃  is  libbu I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] ina ŠA₃. .
+"
+system,"The lemma of  ŠA₃  is  libbu I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  BE ZE₂ šubbat u BE ŠA₃. .
+"
+system,"The lemma of  lib₃bušu₂nu  is  libbu I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] lib₃bušu₂nu KA₂. .
+"
+system,"The lemma of  liibbišunu  is  libbu I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ina liibbišunu GURUŠ. .
+"
+system,"The lemma of  DINGIRMEŠ  is  ilu I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  DINGIRMEŠ [MASK] šuuzkiršunutima. .
+"
+system,"The lemma of  U₄  is  ūmu I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] [MASK] DUB.SAR U₄ AN. .
+"
+system,"The lemma of  EN  is  bēlu I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] hirat DUMU EN DINGIRMEŠ. .
+"
+system,"The lemma of  ul  is  ul I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] maaali ṭaabi ul. .
+"
+system,"The lemma of  IGI  is  pānu I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ina IGI DINGIRtika GALti. .
+"
+system,"The lemma of  IGI  is  pānu I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ša₂ [MASK] [MASK] SISKUR₂ TAGMEŠ [MASK] [MASK] IGI SISKUR₂. .
+"
+system,"The lemma of  panu(AŠ)u₂a  is  pānu I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  šiiru [MASK] [MASK] [MASK] limmir panu(AŠ)u₂a [MASK] padanu ina. .
+"
+system,"The lemma of  panikunuma  is  pānu I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] liter [MASK] panikunuma. .
+"
+user,"What is the lemma of  iṣe₂er ?
+ This word is found in the language of  AKKADIAN .
+"
+assistant,iṣēru I
+user," That is incorrect. The lemma of  ikisi₂a  is  ina I .
+What is the lemma of  i ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] ataadlaah i. ."
+assistant,i I
+user," That is incorrect. The lemma of  ikisi₂a  is  ina I .
+What is the lemma of  ina ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ina KURi mee [MASK] biina. ."
+assistant,ina I
+user,"What is the lemma of  i+na ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  {d}30 u₃ {d}UTU i+na ANe. ."
+assistant,ina I
+user,"What is the lemma of  i₃na ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  i₃na mahri. ."
+assistant,ina I
+user,"What is the lemma of  {lu₂}ša₂UGUURU ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ana {lu₂}ša₂UGUURU. ."
+assistant,ša I
+user,"What is the lemma of  NIG₂.ŠU ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] SILA₃ NIG₂.ŠU IGI.DU. ."
+assistant,nig I
+user," That is incorrect. The lemma of  ša₃ŠA₃ša₃  is  ša I .
+What is the lemma of  LU₂ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  SAG IM.4 LU₂ GU₂ BURANUN{ki}. ."
+assistant,lu I
+user," That is incorrect. The lemma of  ša₃ŠA₃ša₃  is  ša I .
+What is the lemma of  ša₂salamu ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] KU₄ub ša₂salamu. ."
+assistant,ša I
+user,"What is the lemma of  ša(|SILA₃.UD|) ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  {d}nabium ša(|SILA₃.UD|) ullanuuššu {d}U.GUR la išakkan šibṭu. ."
+assistant,ša I
+user,"What is the lemma of  u₃ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ešeki {tug₂}SIG₂ki aṣbat GIM {tug₂}SIG₂ DINGIRMU u₃. ."
+assistant,u I
+user,"What is the lemma of  u ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  {d}30 ina ANe u KIti₃ tašeʾi gimri. ."
+assistant,u I
+user,"What is the lemma of  u₂ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  u₂ DAMsu₂. ."
+assistant,u I
+user,"What is the lemma of  u₃(u₂) ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] ina qabal [MASK] [MASK] ša₂ šarbu u₃(u₂) ṣeetu₄. ."
+assistant,u I
+user,"What is the lemma of  mataatim ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] ina mataatim. ."
+assistant,mātum I
+user," Your answer was close.
+ That is incorrect. The lemma of  mataatim  is  mātu I .
+What is the lemma of  maati₃ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  tanihu ina maati₃ kima ša₂muti u₂ša₂aznin. ."
+assistant,mātu I
+user,"What is the lemma of  maatu₄ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] [MASK] [MASK] EN [MASK] muštešir₃ maatu₄ sapiin [MASK] aabi. ."
+assistant,mātu I
+user,"What is the lemma of  KALAM ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  {mul}{giš}GAG {d}+EN.ME.ŠAR₂.RA [MASK] [MASK] LUL.AŠ AL.GUN₃.GUN₃ A.ZI.GA DUGUD.DA KALAM. ."
+assistant,mātu I
+user,"What is the lemma of  KURka ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] [MASK] KUR₂ ana KURka. ."
+assistant,mātu I
+user,"What is the lemma of  LUGALšu₂ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ID₂ LUGALšu₂. ."
+assistant,šarru I
+user,"What is the lemma of  šarrani ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  šarrani qarradu {d}ninurta ardušu₂ ninu. ."
+assistant,šarru I
+user,"What is the lemma of  MANMEŠni ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ezib MANMEŠni. ."
+assistant,manu I
+user," That is incorrect. The lemma of  LUGALMEŠšu₂  is  šarru I .
+What is the lemma of  LUGALMEŠ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  nadinaat agiiaana LUGALMEŠ. ."
+assistant,šarru I
+user,"What is the lemma of  šarru ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  belu [MASK] [MASK] [MASK] [MASK] šarru nišuut šarrutu₂. ."
+assistant,šarru I
+user,"What is the lemma of  DUMU.ME.EŠ ?
+ This word is found in the language of  AKKADIAN .
+"
+assistant,māru I
+user,"What is the lemma of  DUMUMEŠkina ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  DUMUMEŠkina lušeniq. ."
+assistant,māru I
+user,"What is the lemma of  DUMUšu ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ta na ana DUMUšu [MASK] idin. ."
+assistant,māru I
+user,"What is the lemma of  DUMU.DUMUMEŠšu₂ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] DUMU.DUMUMEŠšu₂. ."
+assistant,māru I
+user,"What is the lemma of  DUMUME ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  {lu₂}KU₄.E₂ GUBma annaa [MASK] DINGIRME DUMUME. ."
+assistant,māru I
+user,"What is the lemma of  {giš}E₂ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ša₂ pani ṣabitti 1+en {giš}E₂ nuur₂. ."
+assistant,bītu I
+user,"What is the lemma of  bitatiia ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ina bitatiia duušša₂ati. ."
+assistant,bītu I
+user,"What is the lemma of  bit ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] [MASK] [MASK] bit. ."
+assistant,bītu I
+user,"What is the lemma of  E₂šu₂nu ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  DINGIRMEŠ E₂šu₂nu gabbi ša₂ kal MU.AN.NA guuqqane₂e u. ."
+assistant,bītu I
+user,"What is the lemma of  bitiiš ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] bitiiš. ."
+assistant,bītu I
+user,"What is the lemma of  NU ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  {mul}SAG.ME.GAR ana [MASK] {d}šullat₂ u {d}haniš₂ ana GUB₃ NU DIB ina KUR MAR.TU{ki}. ."
+assistant,lā I
+user,"What is the lemma of  NU.ŠE.GA ?
+ This word is found in the language of  AKKADIAN .
+"
+assistant,lā I
+user,"What is the lemma of  GIŠ₃.NU.ZU ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ana KI MIN GIŠ.GAN₂ {giš}LU₂anu {u₂}elikulla {u₂}kurkanaa ša₂ KUR ina [MASK] {munus}AŠ₂.GAR₃ GIŠ₃.NU.ZU ina GU₂šu₂ GARan. ."
+assistant,lu I
+user," Your answer was close.
+ That is incorrect. The lemma of  IGI.NU.TUKU  is  lā I .
+What is the lemma of  BA.RA ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  BE MUNUS U₃.TUma GEŠTUG 15šu₂ BA.RA BUR₃at SAG.KALMEŠ ERIN₂MU ŠUBMEŠ. ."
+assistant,lā I
+user,"What is the lemma of  la₂ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  la₂qa₂am la₂ imua. ."
+assistant,lā I
+user,"What is the lemma of  šu₂kunma ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ana mahar ekal {d}UTUši panišu₂ šu₂kunma. ."
+assistant,šakānu I
+user,"What is the lemma of  liškunma ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ERIN₂MEŠšu₂ ša₂ lasame urta u ṭe₃ema liškunma. ."
+assistant,šakānu I
+user,"What is the lemma of  tašakkani ?
+ This word is found in the language of  AKKADIAN .
+"
+assistant,šakānu I
+user,"What is the lemma of  taškuna ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ina KASKAL izzizma imhurka atta taškuna iaaši. ."
+assistant,šakānu I
+user,"What is the lemma of  iššakna ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ana ša₂ ina u₄mi lemniš iššakna aš₂rika aš₂tene₂ʾi. ."
+assistant,šakānu I
+user,"What is the lemma of  lib₃buuš ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ana [MASK] GALu₂ LUGAL dannu šar₃ kiššat šar₃ KUR aššur{ki} LUGAL maṣi mala lib₃buuš [MASK] [MASK] ašib. ."
+assistant,libbu I
+user,"What is the lemma of  lib₃buu₂ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  lib₃buu₂ U₄.3.KAM KI {d}sume₂e TA panaat {d}+EN ittiqunimma. ."
+assistant,libbu I
+user,"What is the lemma of  lib₃bišu₂nu ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ŠEŠ ADšu₂nu ina {iti}DU₆ MU {m}seluku LUGAL ina huud lib₃bišu₂nu KI ahaamiš ana. ."
+assistant,libbu I
+user,"What is the lemma of  ŠA₃.ŠA₃šina ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] AGA AŠ.ME apir ina ITI BI MUNUS PEŠ₄MEŠ ŠA₃.ŠA₃šina. ."
+assistant,libbu I
+user,"What is the lemma of  liibbišu ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] šuubtim elletim ša₂ itti [MASK] [MASK] [MASK] ina liibbišu {d}+en.lil₂. ."
+assistant,libbu I
+user,"What is the lemma of  DINGIR.HUL.AMEŠ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  šaaggaašu šagaašti DINGIR.HUL.AMEŠ. ."
+assistant,ilu I
+user,"What is the lemma of  ilišiin ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  iteeršu ana ilišiin. ."
+assistant,ilu I
+user,"What is the lemma of  DINGIRMEŠša₂ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  BE ŠA₃.NIGIN TABMEŠ [MASK] ŠIDšu₂nu ERIN₂ni DINGIRMEŠša₂ ina IZI.GARMEŠ UŠMEŠši. ."
+assistant,ilu I
+user,"What is the lemma of  ili ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ili epišti luuqbi epišti ul ša₂ qabe₂e. ."
+assistant,ilu I
+user,"What is the lemma of  i₃li₂MU ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] [MASK] tu₄paaš₂šar₂ [MASK] i₃li₂MU BUR₂ra TUKUa. ."
+assistant,ilu I
+user,"What is the lemma of  u₄miia ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ša₂ u₄miia luu. ."
+assistant,ūmu I
+user,"What is the lemma of  u₄mišu₂ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  qi₂it u₄mišu₂ [MASK] ša₂. ."
+assistant,ūmu I
+user,"What is the lemma of  U₄MEŠia ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  U₄MEŠia GID₂.DAMEŠ TI.LA. ."
+assistant,ūmu I
+user,"What is the lemma of  U₄.11.KAM@v ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ina [MASK] U₄.11.KAM@v [MASK] u {d}30 IGIšu₂nutima. ."
+assistant,ūmu I
+user,"What is the lemma of  U₄ME ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  luurrik₂ U₄ME TI.LA luuttir. ."
+assistant,ūmu I
+user,"What is the lemma of  {lu₂}EN.NAM ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] {lu₂}EN.NAM. ."
+assistant,bēlu I
+user,"What is the lemma of  ENšunu ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  umma saanqutu₂ ana LUGAL ENšunu [MASK] naašpartu₄ ša₂ išṭuru. ."
+assistant,bēlu I
+user,"What is the lemma of  beli₃ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ša₂ beli₃ nuuggat ŠA₃šu₂ ana ašrišu₂ litura. ."
+assistant,bēlu I
+user,"What is the lemma of  ENE₂ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  NIG₂.TUKU UKU₂ ENE₂ BI LUGAL BI. ."
+assistant,bēlu I
+user,"What is the lemma of  ENšu₂nu ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  {giš}TUKULMEŠšu₂nu BALAMEŠma [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] ana ENšu₂nu. ."
+assistant,bēlu I
+user,"What is the lemma of  NU ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  DIŠ ina IGI.DU₈.Ašu₂ NU GAL₂ KUR mala GAL₂u₂ TA {d}UTU.E₃. ."
+assistant,lā I
+user," That is incorrect. The lemma of  NU.AL.TIL  is  ul I .
+What is the lemma of  ul ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ana ahameš ul iraggumu manama kimtu₄. ."
+assistant,ul I
+user,"What is the lemma of  u₃ul ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] ataadlaah i bitim i dimatim i bitim u₃ul u₃šaab. ."
+assistant,ul I
+user,"What is the lemma of  NU.MU.UN.TEŠ₂ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  NIR.GAL₂ZU NU.MU.UN.TEŠ₂ {d}EN.KI u {d}asarlu₂hi. ."
+assistant,ul I
+user,"What is the lemma of  NU.AL.TIL ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  NU.AL.TIL KA₂.DINGIRMEŠ [MASK] DUB.SAR. ."
+assistant,ul I
+user,"What is the lemma of  IGIšu₂nu ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  DIŠ {mul}EN.TE.NA.BAR.HUM MULMEšu₂ daaʾmu IGIšu₂nu ana {d}UTU.ŠU₂.A GARnu GAL₂ME. ."
+assistant,pānu I
+user,"What is the lemma of  IGIMEŠ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  BAR {na₄}ZA.GIN₃ ina I₃.GIŠ EREN IGIMEŠ SAG.DUsu. ."
+assistant,pānu I
+user,"What is the lemma of  IGIkunu ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  iriissu ṭaabu ašakkan ina SISKUR₂ IGIkunu u₂kan. ."
+assistant,pānu I
+user,"What is the lemma of  panuša₂ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  šimatuša₂ marṣa [MASK] panuša₂ dimta₅ dulluhu. ."
+assistant,pānu I
+user,"What is the lemma of  IGIšu₂ma ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] GARma gabbi UNMEŠ IGIšu₂ma. ."
+assistant,pānu I
+system,"The lemma of  ELAM-tim  is  Elam .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ṭe₄-em ERIN₂ ELAM-tim ù ERIN₂ ÈŠ-NUN-NA-(ki). .
+"
+system,"The lemma of  (I)-a-hu-um-wa-qar  is  Ahum-waqar .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ù (I)-a-hu-um-wa-qar ENSI₂. .
+"
+system,"The lemma of  (I)-a-hu-um-wa-qar  is  Ahum-waqar .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  aš-šum A-ŠÀ-lim ša (I)-a-hu-um-wa-qar. .
+"
+system,"The lemma of  a-hu-wa-qar  is  Ahum-waqar .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  GÁN A-ŠÀ a-na a-hu-wa-qar DUB-SAR. .
+"
+system,"The lemma of  DINGIR.MAH  is  Belet-ili I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  NIG₂.GIG {d}anim {d}enlil₂ {d}IŠKUR DINGIR.MAH. .
+"
+system,"The lemma of  kukuudru  is  kukudru I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  BE kukuudru GE₆ik NUN. .
+"
+system,"The lemma of  {na₄}SAL.LA  is  muštashipu I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  {na₄}KURnu.DAB {na₄}MUŠ SA₅ {na₄}MUŠ BABBAR {na₄}SAL.LA. .
+"
+system,"The lemma of  {na₄}SAL.LA  is  muštashipu I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  {na₄}KURnu.DAB {na₄}MUŠ SA₅ {na₄}MUŠ BABBAR {na₄}SAL.LA. .
+"
+system,"The lemma of  paṭirti  is  paṭru I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  luu ina paṭirti luu ina. .
+"
+system,"The lemma of  paṭirti  is  paṭru I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ša₂ KURi [MASK] lu [MASK] ṣimitti lu ina paṭirti. .
+"
+system,"The lemma of  DU₈MEŠ  is  paṭru I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  DIŠ [MASK] KURma [MASK] ina ANe [MASK] išdihu DU₈MEŠ. .
+"
+system,"The lemma of  u₂kal  is  kullu III .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  E₂ u₂kal. .
+"
+system,"The lemma of  NIG₂.ŠU  is  būšu I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  DIŠ MUL uštamšilma ina EN₃.DURšu₂ GUB ana NIG₂.ŠU E₂.GAL IZI ŠUBut [MASK] GAL₂ma. .
+"
+system,"The lemma of  ša-pí-il-ti-im  is  šapiltum .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  pí-qa-at i-na ša-pí-il-ti-im. .
+"
+system,"The lemma of  ša-pí-il-ti-im  is  šapiltum .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  pí-qa-at i-na ša-pí-il-ti-im. .
+"
+system,"The lemma of  zaree  is  zarû I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  MUL [MASK] KI zaree ša₂ {mul}MAR.GID₂.DA GUBzu [MASK] {d}er₃ra gašri. .
+"
+system,"The lemma of  zaree  is  zarû I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  MUL [MASK] KI zaree ša₂ {mul}MAR.GID₂.DA GUBzu [MASK] {d}er₃ra gašri. .
+"
+system,"The lemma of  {m}BAša₂a  is  Iqiša I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ahamiš ana SUR našuu₂ ašar ša₂ {m}BAša₂a. .
+"
+system,"The lemma of  {m}BAša₂a  is  Iqiša I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ahamiš ana SUR našuu₂ ašar ša₂ {m}BAša₂a. .
+"
+system,"The lemma of  {m}BA{+ša₂}a  is  Iqiša I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  elat KU₃.BABBAR ša₂ {anše}paree ša₂ {m}BA{+ša₂}a. .
+"
+system,"The lemma of  {m}BA{+ša₂}  is  Iqiša I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] MA.NA [MASK] GIN₂ KU₃.BABBAR ša {m}BA{+ša₂} Ašu₂ ša₂ {m}{d}+ENPAB. .
+"
+system,"The lemma of  {d}nannari  is  nannāru I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  {d}30 {d}nannari. .
+"
+system,"The lemma of  ka-bi-ia  is  Kabiya .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ù ka-bi-ia ik-šu-du. .
+"
+system,"The lemma of  ka-bi-ia  is  Kabiya .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ù ka-bi-ia ik-šu-du. .
+"
+system,"The lemma of  {m}mitunu  is  Mitunu I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  {m}mitunu {lu₂}ša₂kin₃. .
+"
+system,"The lemma of  {m}mitunu  is  Mitunu I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  {m}mitunu {lu₂}ša₂kin₃. .
+"
+system,"The lemma of  qu₂buri  is  qubūru I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] ana KI niibtu₂ ŠUB [MASK] qu₂buri ina. .
+"
+system,"The lemma of  qu₂buri  is  qubūru I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] ana KI niibtu₂ ŠUB [MASK] qu₂buri ina. .
+"
+system,"The lemma of  qu₂buru₃  is  qubūru I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] qu₂buru₃. .
+"
+system,"The lemma of  quburišu₂  is  qubūru I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  DIŠ ina GIGšu₂ HULUH.HULUH ZIbi u DUR₂ab NINDA GU₇ A NAG ŠUK quburišu₂ ilqi₂ GAM. .
+"
+system,"The lemma of  {d}tišpak  is  Tišpak I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  {mul}BAL.TEŠ₂.A SUKKAL {d}tišpak {mul}GIR₂.TAB TE MU.3.KAM@v EN.TE.NA dannu GAL₂ haahhu sualu KUR DABbat. .
+"
+system,"The lemma of  id-bu-ub  is  dabâbum .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  a-šar id-bu-bu ma-da-tim-ma id-bu-ub. .
+"
+system,"The lemma of  ú-nu-ut  is  unûtum .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ša i-na ŠÀ-TAM É ú-nu-ut MÈ iz-za-zu. .
+"
+system,"The lemma of  ú-nu-ut  is  unûtum .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ša i-na ŠÀ-TAM É ú-nu-ut MÈ iz-za-zu. .
+"
+system,"The lemma of  ú-nu-uz-zu  is  unûtum .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ni-(d)-IŠKUR ù ú-nu-uz-zu. .
+"
+system,"The lemma of  {u₂}MA₂.ERIŠ₄.MA₂.RA  is  marišmara I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  KI MIN {u₂}GEŠTIN [MASK] HAD₂.A SUD₂ ina A GAZI{sar} SILA₁₁aš LAL [MASK] ana [MASK] [MASK] {u₂}MA₂.ERIŠ₄.MA₂.RA ina A GAZI{sar} SILA₁₁aš LAL. .
+"
+system,"The lemma of  {u₂}MA₂.ERIŠ₄.MA₂.RA  is  marišmara I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  KI MIN {u₂}GEŠTIN [MASK] HAD₂.A SUD₂ ina A GAZI{sar} SILA₁₁aš LAL [MASK] ana [MASK] [MASK] {u₂}MA₂.ERIŠ₄.MA₂.RA ina A GAZI{sar} SILA₁₁aš LAL. .
+"
+system,"The lemma of  {giš}MI.EREŠ₄eš.MA₂.URU₅uumma  is  marišmara I .
+ This word is found in the language of  AKKADIAN .
+"
+system,"The lemma of  {giš}MA₂.EREŠ₄{eš}.MA₂lee  is  marišmara I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  {udu}SISKUR DU₃uš {uzu}ZAG [MASK] tuṭahha KAŠ BALqi₂ GIŠ.GAN₂ {giš}MA₂.EREŠ₄{eš}.MA₂lee. .
+"
+system,"The lemma of  i-dí-ia  is  Iddiyatum .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  a-na i-dí-ia. .
+"
+system,"The lemma of  i-dí-ia  is  Iddiyatum .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  a-na i-dí-ia. .
+"
+system,"The lemma of  i-dí-ia-tim  is  Iddiyatum .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ša i-dí-ia-tim li-ši-ib-ma. .
+"
+system,"The lemma of  i-dí-ia-tum-ma  is  Iddiyatum .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  um-ma i-dí-ia-tum-ma. .
+"
+system,"The lemma of  (I)-(d)-EN-ZU-mu-ša-lim  is  Sin-mušallim .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  a-na (d)-UTU-ha-zi-ir (I)-(d)-EN-ZU-mu-ša-lim. .
+"
+system,"The lemma of  (I)-(d)-EN-ZU-mu-ša-lim  is  Sin-mušallim .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  a-na (d)-UTU-ha-zi-ir (I)-(d)-EN-ZU-mu-ša-lim. .
+"
+system,"The lemma of  (I)-(d)-EN-ZU-mu  is  Sin-mušallim .
+ This word is found in the language of  AKKADIAN .
+"
+system,"The lemma of  (d)-EN-ZU-mu-ša-lim  is  Sin-mušallim .
+ This word is found in the language of  AKKADIAN .
+"
+system,"The lemma of  ka-ni-sa-an  is  Kanisan .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  um-ma ka-ni-sa-an. .
+"
+system,"The lemma of  ka-ni-sa-an  is  Kanisan .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  um-ma ka-ni-sa-an. .
+"
+system,"The lemma of  i-ni  is  Ini-[…] .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ap-pu-na-ma i-ni. .
+"
+system,"The lemma of  i-ni  is  Ini-[…] .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ap-pu-na-ma i-ni. .
+"
+system,"The lemma of  al-ma  is  ša’âlum .
+ This word is found in the language of  AKKADIAN .
+"
+system,"The lemma of  al-ma  is  ša’âlum .
+ This word is found in the language of  AKKADIAN .
+"
+system,"The lemma of  SUR₂.DU₃{mušen}  is  surdû I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  SUR₂.DU₃{mušen} u UGA{mušen} KI ahamiš₂ ṣalta DU₃MEŠma SUR₂.DU₃{mušen} UGA{mušen} GAZ. .
+"
+system,"The lemma of  SUR₂.DU₃{mušen}  is  surdû I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  SUR₂.DU₃{mušen} ana E₂.GAL LUGAL KU₄ma ina AB BA.E₃ KUR₂ dannu ana KUR ZIma KUR u₂šalpat. .
+"
+system,"The lemma of  SUR₂.DU₃  is  surdû I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  NAM.BUR₂.BI HUL SUR₂.DU₃ ša₂ E₂. .
+"
+system,"The lemma of  SUR₂.DU₃.MEŠ  is  surdû I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] SUR₂.DU₃.MEŠ [MASK] LUGAL GU₃.DE₂MEŠ [MASK] [MASK] [MASK] MEa NU GARan IZI.GAR. .
+"
+system,"The lemma of  še-eh-na-a-(ki)  is  Šehna .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  a-lim še-eh-na-a-(ki) wa-ši-ib. .
+"
+system,"The lemma of  še-eh-na-a-(ki)  is  Šehna .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ma il-li-ku₈ a-na še-eh-na-a-(ki). .
+"
+system,"The lemma of  še-eh-na-a  is  Šehna .
+ This word is found in the language of  AKKADIAN .
+"
+system,"The lemma of  še-eh-na  is  Šehna .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ir-de₄-e i-tù-ra-am-ma iš-tu še-eh-na. .
+"
+system,"The lemma of  KI.GAR  is  kullatu II .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  KI.GAR tuqaddaš₂ ZI₃ ŠE.BAR ana KI.GAR ŠUBdi IM KID₂iṣ. .
+"
+system,"The lemma of  KI.GAR  is  kullatu II .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  KI.GAR tuqaddaš₂ ZI₃ ŠE.BAR ana KI.GAR ŠUBdi IM KID₂iṣ. .
+"
+system,"The lemma of  kullat  is  kullatu II .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  EN₂ KI.GAR kullat {d}anim u. .
+"
+system,"The lemma of  naašparuu₂  is  našparu II .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  naašparuu₂ ekiissu IGIšu₂ ana IGIšu₂ NU hadi. .
+"
+system,"The lemma of  naašparuu₂  is  našparu II .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  kitti DU₁₁.DU₁₁ub naašparuu₂ išširšu₂. .
+"
+system,"The lemma of  naašpari  is  našparu II .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  naašpari ša. .
+"
+system,"The lemma of  naašpaar  is  našparu II .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] apsiiim naašpaar. .
+"
+system,"The lemma of  ša₂niš  is  šanîš II .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  {mul₂}GU₄.AN.NA ša₂niš {mul₂}AŠ.GAN₂. .
+"
+system,"The lemma of  huuššuuš  is  hašāšu I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] E₂ [MASK] IM huuššuuš DUMU E₂ [MASK] IBILA ul. .
+"
+system,"The lemma of  huuššuuš  is  hašāšu I .
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] E₂ [MASK] IM huuššuuš DUMU E₂ [MASK] IBILA ul. .
+"
+user,"What is the lemma of  ELAM-(ki) ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  MEŠ LÚ ELAM-(ki). ."
+assistant,Elam
+user,"What is the lemma of  ELAM-(ki)-MA ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ù GÁN A-ŠÀ ša at-ta-se-e LÚ ELAM-(ki)-MA. ."
+assistant,Elam
+user,"What is the lemma of  MA-(ki) ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ku-un-na-ma-an MA-(ki). ."
+assistant,ma I
+user," That is incorrect. The lemma of  ELAM-MA-MEŠ-(ki)  is  Elam .
+What is the lemma of  tim ?
+ This word is found in the language of  AKKADIAN .
+"
+assistant,tim I
+user," That is incorrect. The lemma of  ELAM-MA-MEŠ-(ki)  is  Elam .
+What is the lemma of  ELAM-MA-MEŠ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ša UR-GE₇-RA ELAM-MA-MEŠ iš-hi-ṭú-ši. ."
+assistant,Elam
+user,"What is the lemma of  (I)-a-hu-um-wa-qar ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  aš-šum A-ŠÀ-lim ša (I)-a-hu-um-wa-qar. ."
+assistant,Ahum-waqar
+user,"What is the lemma of  a-hu-wa-qar ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  GÁN A-ŠÀ a-na a-hu-wa-qar DUB-SAR. ."
+assistant,Ahum-waqar
+user,"What is the lemma of  {d}beletDIGIRMEŠ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  {d}beletDIGIRMEŠ luu marti emeša₂ma bita. ."
+assistant,Belet-ili I
+user,"What is the lemma of  beletDINGIRMEŠ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ina ina [MASK] beletDINGIRMEŠ. ."
+assistant,Belet-ili I
+user,"What is the lemma of  {d}beleti₃li₂ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] [MASK] rubat ṣirtu₄ {d}beleti₃li₂ ul. ."
+assistant,Belet-ili I
+user,"What is the lemma of  {d}beletDINGIRMEŠ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] {d}30 [MASK] [MASK] u {d}beletDINGIRMEŠ [MASK] šumu. ."
+assistant,Belet-ili I
+user,"What is the lemma of  beleti₃li₂ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] ina [MASK] beleti₃li₂ [MASK] DINGIR u. ."
+assistant,Belet-ili I
+user,"What is the lemma of  kukuudri ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  BE ina UGU kukuudri. ."
+assistant,kukudru I
+user,"What is the lemma of  kukuudru ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  kukuudru [MASK] [MASK] ullulu. ."
+assistant,kukudru I
+user,"What is the lemma of  kukuudruum ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  BE kukuudruum imi₃ta šumela. ."
+assistant,kukudru I
+user,"What is the lemma of  {na₄}SAL.LA ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  {na₄}KURnu.DAB {na₄}MUŠ SA₅ {na₄}MUŠ BABBAR {na₄}SAL.LA. ."
+assistant,muštashipu I
+user,"What is the lemma of  paṭirti ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  luu ina paṭirti luu ina. ."
+assistant,paṭru I
+user,"What is the lemma of  DU₈MEŠ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  DIŠ [MASK] KURma [MASK] ina ANe [MASK] išdihu DU₈MEŠ. ."
+assistant,paṭru I
+user,"What is the lemma of  likillu ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] napṭikunu likillu. ."
+assistant,likillu I
+user," That is incorrect. The lemma of  tukallušu  is  kullu III .
+What is the lemma of  tukallušu ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] AMEŠ tukallušu haamṭiš [MASK] LU₂ [MASK] [MASK] ŠA₃šu. ."
+assistant,kullu III
+user,"What is the lemma of  tukalli ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  taklimtu₄ {d}e₂a ina tukalli. ."
+assistant,kullu III
+user,"What is the lemma of  u₂kalšu₂nuti ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] [MASK] u₂kalšu₂nuti ana. ."
+assistant,kullu III
+user,"What is the lemma of  kiiil ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  kiiil qa₂qa₂adka. ."
+assistant,kīlu I
+user," That is incorrect. The lemma of  tukallušu  is  kullu III .
+What is the lemma of  NIG₂.GAL₂MEŠša₂ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  NIG₂.GAL₂MEŠša₂ u₃ NIG₂.GAMEŠša₂. ."
+assistant,būšu I
+user,"What is the lemma of  I₃.GAL₂šu ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] [MASK] KUR I₃.GAL₂šu. ."
+assistant,būšu I
+user,"What is the lemma of  bušee ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] illabuhi UZU atru [MASK] NUN bušee. ."
+assistant,būšu I
+user,"What is the lemma of  NIG₂.ŠU ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ina KAšu₂ ušqalal NIG₂.ŠU KURka immaššaaʾ. ."
+assistant,būšu I
+user,"What is the lemma of  NIG₂.ŠUea ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  KUR₂ URU ZAGMU DABma UGU NIG₂.ŠUea NA₂iṣ. ."
+assistant,būšu I
+user,"What is the lemma of  ša-pí-il-ti-im ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  pí-qa-at i-na ša-pí-il-ti-im. ."
+assistant,šapiltum
+user,"What is the lemma of  zaree ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  MUL [MASK] KI zaree ša₂ {mul}MAR.GID₂.DA GUBzu [MASK] {d}er₃ra gašri. ."
+assistant,zarû I
+user,"What is the lemma of  {m}BAša₂a ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  {m}BAša₂a bu₁₂kur₂ {m}{d}+INANNAMUKAM@v ŠA₃.BAL.BAL {m}E₂kurzakir. ."
+assistant,Iqiša I
+user,"What is the lemma of  BAša₂a ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  muduu₂ gimir kalamu [MASK] IM {m}{d}INANAMUKAM(ŠE) DUMUA.NI BAša₂a. ."
+assistant,Iqiša I
+user,"What is the lemma of  {m}BA{+ša₂} ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] MA.NA [MASK] GIN₂ KU₃.BABBAR ša {m}BA{+ša₂} Ašu₂ ša₂ {m}{d}+ENPAB. ."
+assistant,Iqiša I
+user,"What is the lemma of  {m}BAša₂ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  {m}BAša₂ DUMU. ."
+assistant,Iqiša I
+user,"What is the lemma of  {m}BA{+ša₂}a ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  elat KU₃.BABBAR ša₂ {anše}paree ša₂ {m}BA{+ša₂}a. ."
+assistant,Iqiša I
+user,"What is the lemma of  naannaru ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  luu₂ U₄ {d}30 naannaru ašib ANe. ."
+assistant,nannāru I
+user,"What is the lemma of  naannari ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  mari [MASK] naannari {d}30 ša₂ ina ANe. ."
+assistant,nannāru I
+user,"What is the lemma of  {d}naannaru ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  iaaši abi {d}naannaru ulziizzaanni šutabuul tereeti azzaaz. ."
+assistant,nannāru I
+user,"What is the lemma of  naannar ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] naannar [MASK] u KIti₃ [MASK] mati. ."
+assistant,nannāru I
+user,"What is the lemma of  {d}+NANNArata ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] EN git₂malu {d}+NANNArata nabi MUka. ."
+assistant,nannāru I
+user,"What is the lemma of  ka-bi-ia ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ù ka-bi-ia ik-šu-du. ."
+assistant,Kabiya
+user,"What is the lemma of  {m}mitunu ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  {m}mitunu {lu₂}ša₂kin₃. ."
+assistant,Mitunu I
+user,"What is the lemma of  qu₂buri ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] ana KI niibtu₂ ŠUB [MASK] qu₂buri ina. ."
+assistant,qubūru I
+user,"What is the lemma of  qu₂buru₃ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] qu₂buru₃. ."
+assistant,qubūru I
+user,"What is the lemma of  quburišu₂ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  DIŠ ina GIGšu₂ HULUH.HULUH ZIbi u DUR₂ab NINDA GU₇ A NAG ŠUK quburišu₂ ilqi₂ GAM. ."
+assistant,qubūru I
+user,"What is the lemma of  {d}TIŠPAK ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  {d}UTU u₃ {d}TIŠPAK libaalliṭu₂ka. ."
+assistant,Tišpak I
+user,"What is the lemma of  {d}tišpak ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  {mul}BAL.TEŠ₂.A SUKKAL {d}tišpak {mul}GIR₂.TAB TE MU.3.KAM@v EN.TE.NA dannu GAL₂ haahhu sualu KUR DABbat. ."
+assistant,Tišpak I
+user,"What is the lemma of  {mul}MUŠ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  {d}ṣalbatanu ana {mul}MUŠ. ."
+assistant,muš I
+user," That is incorrect. The lemma of  {d}+tišpak  is  Tišpak I .
+What is the lemma of  {d}tiišpaak ?
+ This word is found in the language of  AKKADIAN .
+"
+assistant,Tišpak I
+user,"What is the lemma of  {d}+tišpak ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  šiptu₄ KU₃ti₃ ša₂ {d}+tišpak u {d}U.GUR. ."
+assistant,Tišpak I
+user,"What is the lemma of  i-da-bu-ub ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  am i-da-bu-ub um-ma-mi pí-qa-at zi-im-ri-(d)-IŠKUR a-na GAL MAR-TU. ."
+assistant,dabâbum I
+user," That is incorrect. The lemma of  ú-ša-ad-ba  is  dabâbum .
+What is the lemma of  ú-da-ba-ab ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  É-GAL-lam la ú-da-ba-ab. ."
+assistant,dabâbum I
+user," That is incorrect. The lemma of  ú-ša-ad-ba  is  dabâbum .
+What is the lemma of  ú-šu-nu-ti ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  um-ma-a-mi i-na be-la-ni ú-šu-nu-ti. ."
+assistant,unûtum I
+user," That is incorrect. The lemma of  ú-ša-ad-ba  is  dabâbum .
+What is the lemma of  da-ab-bu ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  an-ni-tam it-ti i da-ab-bu ù la na-ti. ."
+assistant,dabâbum I
+user," That is incorrect. The lemma of  ú-ša-ad-ba  is  dabâbum .
+What is the lemma of  id-bu-ba-am ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ṭe₄-ma-am an-né-e-em (I)-lu-pa-hu-um id-bu-ba-am. ."
+assistant,dabâbum I
+user," That is incorrect. The lemma of  ú-ša-ad-ba  is  dabâbum .
+What is the lemma of  ú-nu-ut ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ša i-na ŠÀ-TAM É ú-nu-ut MÈ iz-za-zu. ."
+assistant,unûtum I
+user," That is incorrect. The lemma of  ú-nu-uz-zu  is  unûtum .
+What is the lemma of  ú-nu-uz-zu ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ni-(d)-IŠKUR ù ú-nu-uz-zu. ."
+assistant,unûtum I
+user," That is incorrect. The lemma of  ú-nu-uz-zu  is  unûtum .
+What is the lemma of  {giš}MI.EREŠ₄eš.MA₂.URU₅uumma ?
+ This word is found in the language of  AKKADIAN .
+"
+assistant,marišmara I
+user,"What is the lemma of  {giš}MA₂.EREŠ.MA₂.RA ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  {giš}MA₂.EREŠ.MA₂.RA HAD₂.RA₂ GAZ SIM. ."
+assistant,marišmara I
+user,"What is the lemma of  {u₂}MA₂.ERIŠ₄.MA₂.RA ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  KI MIN {u₂}GEŠTIN [MASK] HAD₂.A SUD₂ ina A GAZI{sar} SILA₁₁aš LAL [MASK] ana [MASK] [MASK] {u₂}MA₂.ERIŠ₄.MA₂.RA ina A GAZI{sar} SILA₁₁aš LAL. ."
+assistant,marišmara I
+user,"What is the lemma of  {u₂}MA₂.ERIŠ₄.MA₂lee ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  DIŠ KIMIN {u₂}MA₂.ERIŠ₄.MA₂lee SAG.DU. ."
+assistant,marišmara I
+user,"What is the lemma of  {giš}MA₂.RI₂.IŠ.MA₂.RA ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  KI MIN [MASK] PA {giš}MA₂.RI₂.IŠ.MA₂.RA SUD₂ ina A. ."
+assistant,marišmara I
+user,"What is the lemma of  i-dí-ia ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  a-na i-dí-ia. ."
+assistant,Iddiyatum
+user,"What is the lemma of  i-dí-ia-tim ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ša i-dí-ia-tim li-ši-ib-ma. ."
+assistant,Iddiyatum
+user,"What is the lemma of  i-dí-ia-tum-ma ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  um-ma i-dí-ia-tum-ma. ."
+assistant,Iddiyatum
+user,"What is the lemma of  (I)-(d)-EN-ZU-mu-ša-lim ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  a-na (d)-UTU-ha-zi-ir (I)-(d)-EN-ZU-mu-ša-lim. ."
+assistant,Sin-mušallim
+user,"What is the lemma of  (I)-(d)-EN-ZU-mu-ša ?
+ This word is found in the language of  AKKADIAN .
+"
+assistant,Sin-mušallim
+user,"What is the lemma of  (I)-(d)-ZU-mu-ša-lim ?
+ This word is found in the language of  AKKADIAN .
+"
+assistant,Sin-mušallim
+user,"What is the lemma of  (d)-EN-ZU-mu-ša-lim ?
+ This word is found in the language of  AKKADIAN .
+"
+assistant,Sin-mušallim
+user,"What is the lemma of  (I)-(d)-EN-ZU-mu ?
+ This word is found in the language of  AKKADIAN .
+"
+assistant,Sin-mušallim
+user,"What is the lemma of  ka-ni-sa-an ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  um-ma ka-ni-sa-an. ."
+assistant,Kanisan
+user,"What is the lemma of  i-ni ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ap-pu-na-ma i-ni. ."
+assistant,Ini-[…]
+user,"What is the lemma of  al-ma ?
+ This word is found in the language of  AKKADIAN .
+"
+assistant,ša’âlum
+user,"What is the lemma of  SUR₂.DU₃{mušen} ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  HUL SUR₂.DU₃{mušen} TU{mušen}. ."
+assistant,surdû I
+user,"What is the lemma of  SUR₂.DU₃.MEŠ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] SUR₂.DU₃.MEŠ [MASK] LUGAL GU₃.DE₂MEŠ [MASK] [MASK] [MASK] MEa NU GARan IZI.GAR. ."
+assistant,surdû I
+user,"What is the lemma of  SUR₂.DU₃{mušen}MEŠ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  MUŠEN [MASK] SUR₂.DU₃{mušen}MEŠ ina UGU KA₂ URU ina kal GE₆ GU₃.DE₂MEŠ URU BI KUR₂. ."
+assistant,surdû I
+user,"What is the lemma of  SUR₂.DU₃ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  NAM.BUR₂.BI HUL SUR₂.DU₃ ša₂ E₂. ."
+assistant,surdû I
+user,"What is the lemma of  še-eh-na-a-(ki) ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  še-eh-na-a-(ki) a-na šu-na-a-(ki). ."
+assistant,Šehna
+user,"What is the lemma of  še-eh-na ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ir-de₄-e i-tù-ra-am-ma iš-tu še-eh-na. ."
+assistant,Šehna
+user,"What is the lemma of  še-eh-na-a ?
+ This word is found in the language of  AKKADIAN .
+"
+assistant,Šehna
+user,"What is the lemma of  KI.GAR ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  KI.GAR [MASK] [MASK] ŠE KU₃.BABBAR [MASK] ŠE [MASK] ana KI.GAR. ."
+assistant,kullatu II
+user,"What is the lemma of  kullat ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  EN₂ KI.GAR kullat {d}anim u. ."
+assistant,kullatu II
+user,"What is the lemma of  naašparuu₂ ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  naašparuu₂ ekiissu IGIšu₂ ana IGIšu₂ NU hadi. ."
+assistant,našparu II
+user,"What is the lemma of  naašpaar ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] apsiiim naašpaar. ."
+assistant,našparu II
+user,"What is the lemma of  naašpari ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  naašpari ša. ."
+assistant,našparu II
+user,"What is the lemma of  ša₂niiš ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ša₂niiš riigmu GARan. ."
+assistant,šanîš II
+user,"What is the lemma of  ša₂niš ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  ša₂niš AN.ZA.GAR₃ ABULMU ŠUBut KUR₂ IGI ABUL. ."
+assistant,šanîš II
+user,"What is the lemma of  MIN ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] MIN [MASK] U₂.BABBAR SUD₂ ina MUD ZABAR ana ŠA₃ IGI.MINšu₂ BUN₂. ."
+assistant,min I
+user," That is incorrect. The lemma of  MIN  is  šanîš II .
+What is the lemma of  huuššuuš ?
+ This word is found in the language of  AKKADIAN .
+ An example sentence using this word is  [MASK] E₂ [MASK] IM huuššuuš DUMU E₂ [MASK] IBILA ul. ."
+assistant,hašāšu I
+system,"The lemma of  {d}šubula₂  is  Šubula I .
+ This word is found in the language of  SUMERIAN .
+ An example sentence using this word is  {d}išum u {d}šubula₂ DINGIRMEŠ {id₂}IDIGNA u₃. .
+"
+system,"The lemma of  {d}šubula₂  is  Šubula I .
+ This word is found in the language of  SUMERIAN .
+ An example sentence using this word is  {d}išum u {d}šubula₂ DINGIRMEŠ {id₂}IDIGNA u₃. .
+"
+system,"The lemma of  {d}šu(MA)bula₂  is  Šubula I .
+ This word is found in the language of  SUMERIAN .
+"
+system,"The lemma of  {d}ninmug  is  Ninmug I .
+ This word is found in the language of  SUMERIAN .
+"
+system,"The lemma of  {d}ninmug  is  Ninmug I .
+ This word is found in the language of  SUMERIAN .
+"
+system,"The lemma of  {d}ninmaš  is  Ninmaš I .
+ This word is found in the language of  SUMERIAN .
+"
+system,"The lemma of  {d}ninmaš  is  Ninmaš I .
+ This word is found in the language of  SUMERIAN .
+"
+system,"The lemma of  marmarra  is  marmaru I .
+ This word is found in the language of  SUMERIAN .
+ An example sentence using this word is  [MASK] [MASK] [MASK] marmarra. .
+"
+system,"The lemma of  marmarra  is  marmaru I .
+ This word is found in the language of  SUMERIAN .
+ An example sentence using this word is  [MASK] [MASK] [MASK] marmarra. .
+"
+user,"What is the lemma of  {d}šubula₂ ?
+ This word is found in the language of  SUMERIAN .
+ An example sentence using this word is  {d}išum u {d}šubula₂ DINGIRMEŠ {id₂}IDIGNA u₃. ."
+assistant,Šubula I
+user,"What is the lemma of  {d}šu(MA)bula₂ ?
+ This word is found in the language of  SUMERIAN .
+"
+assistant,Šubula I
+user,"What is the lemma of  {d}ninmug ?
+ This word is found in the language of  SUMERIAN .
+"
+assistant,Ninmug I
+user,"What is the lemma of  {d}ninmaš ?
+ This word is found in the language of  SUMERIAN .
+"
+assistant,Ninmaš I
+user,"What is the lemma of  marmarra ?
+ This word is found in the language of  SUMERIAN .
+ An example sentence using this word is  [MASK] [MASK] [MASK] marmarra. ."
+assistant,marmaru I

@@ -1,0 +1,27 @@
+Rules,Symbol,
+Role,O,Text in the row has the purpose of giving the LLM a role
+Param,[P],"Whenever this character is seen in any type of input sent to the LLM, it will await in code a string token to fill in the prompt. For example, the training_prompt ""The lemma of [P] is [P]"" will require from code 2 string tokens to be entered into the prompt before sending it to the LLM. In this way, the prompts become their own functions."
+Instruction,I,"Purpose of giving instructions to the LLM (Example, format of prompts, what its purpose is, how training and testing will occur, etc.)"
+Training_Prompt,RP,"Purpose of instilling rules to the LLM via training (ex. The lemma of ""running"" is ""run"")"
+Confirmation_Positive,PC,Purpose of sending a positive reinforcement (e.i. that's correct) to the LLM during training.
+Confirmation_Negative,NC,Purpose of sending a negative reinforcement (e.i. that's incorrect) to the LLM during training.
+Testing_Prompt,EP,Purpose of asking the LLM to perform a task.
+Prompts,ID,Text
+I,1,Your goal is to correctly lemmatize Akkadian words.
+I,2,"Lemmatization is the process of taking a word under context and determining its dictionary form, also known as lemma."
+I,3,You will be asked to give the lemma of a word. A sentence the word appears in is given sometimes to help you understand the word in context.
+I,4,Return a single word without explanation nor formatting when asked for the lemma of a word.
+I,5,Using your knowledge of linguistic analysis and language processing you will perform the task of identifying the lemmas of words from ancient cuneiform languages. Ignore English lemmatization rules.
+I,6,A lemma is defined as the root form of a word without conjugation. Also known as one that would be listed in a dictionary entry for the word.
+I,7,The following is a conversation between two Akkadian language experts. One guesses the lemma of a provided clean value while the other indicates whether they are correct or not. Using your knowledge of linguistic analysis and the information shared in this conversation you will perform the task of identifying the lemmas of words from Akkadian.
+I,8,You will be given the word which you need to identify. Sometimes you will be given contextual information such as the language the word is found in as well as an example of its use in a sentence. 
+I,9,Return a single word without explanation nor formatting when asked for the lemma of a word.
+RP,10,The lemma of [P] is [P].
+EP,11,What is the lemma of [P]?
+RP,12,This word is found in the language of [P].
+RP,13,An example sentence using this word is [P].
+NC,14,Your guess is incorrect. The lemma of [P] is [P].
+NC,15,The correct lemma is slightly different.
+NC,16,"When given words whose lemma is [P], you commonly guess the lemma [P] instead."
+PC,17,Your guess is correct.
+EP,18,What is the lemma of [P]? An example sentence using this word is [P].
