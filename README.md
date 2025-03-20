@@ -73,11 +73,11 @@ Our project uses existing LLMs and Prompt Engineering in order to lemmatize data
         orderBy=[],
         )[0:N]
   Where:
-    - filters is a list of pandas formatted filters applied to to the training set. Column names are as they appear in "EvaCun_out_new.csv"
+  - filters is a list of pandas formatted filters applied to to the training set. Column names are as they appear in "EvaCun_out_new.csv"
     https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.filter.html
-    - orderby is a list of pandas formatted orderby arguments applied to the training set. Column names are as they appear in "EvaCun_out_new.csv"
+  - orderby is a list of pandas formatted orderby arguments applied to the training set. Column names are as they appear in "EvaCun_out_new.csv"
     https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sort_values.html
-    - N represents the batch size
+  - N represents the batch size
 
 7) After specifying parameters and creating testing and training batches, the project is ready to execute.
   
