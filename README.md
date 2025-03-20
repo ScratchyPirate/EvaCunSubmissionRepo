@@ -46,20 +46,20 @@ Our project uses existing LLMs and Prompt Engineering in order to lemmatize data
    line 69 - instructionPrompts: Specify which prompts and the order of prompts to be used as instructions for the model. Use "promptDictionary.GetPromptByID()" with an ID as input to specify the prompt. Prompts along with their IDs seen in "EvaCunSubmissionRepo\Datasets\Prompt Engineering Data Design Prototype.csv"
 
    line 75 - batchParameters: Specify how ICL should be done.
-     logTraining: bool, whether to save a log of ICL results with ICL conversation.
-     exampleSentenceMasks: bool, whether in prompting when providing example sentences as additional context to fill missing words in a sentence with [MASK] or not.
-     trainingWithQuestions: bool, whether to train with question prompts
-     trainingPrompt: Prompt (class), statment prompt
-     trainingWithStatements: bool, whether to train with statement prompts
-     testingPrompt: Prompt (class), question prompt
-     exampleSentenceContextPrompt: Prompt (class) or None, prompt used to provide example sentence context for a clean value used in statement or question prompting. If set to None, no example sentence is given as context for statement and question prompts.
-     languageContextPrompt: Prompt (class) or None, prompt used to provide language context for a clean value used in statement or question prompting. If set to None, no language is given as context for statement and question prompts.
-     negativeReinforcementPrompt: Prompt (class) or None, prompt used for negative reinforcement prompting. If set to None, no negative reinforcement is provided when in ICL the model provides an incorrect answer.
-     smallMistakeCorrectionPrompt: Prompt (class) or None, prompt used for small mistake correcion. If set to None, no negative reinforcement small mistake correction is provided to the model during ICL.
-     smallMistakeLevenshteinThreshold: integer, threshold for model response during question prompting in ICL to be considered a small mistake. Distance between the response (lemma guess) and the correct answer (actual lemma) is calculated as edit distance https://en.wikipedia.org/wiki/Edit_distance. If edit distance between the response is equal to or less than the threshold, the smallMistakeCorrectionPrompt is sent.
-     commonMistakeCorrectionPrompt: Prompt (class) or None, prompt used for common mistake correcion. If set to None, no negative reinforcement common mistake correction is provided to the model during ICL.
-     commonMistakeFrequencyThreshold: integer, threshold for model response during question prompting in ICL to be considered a common mistake. If the model's response as a guess for the lemma of a clean value is a common guess within all model guesses of that lemma's clean values, determined by that response's appearance across all of that lemma's clean values, then the common mistake correction prompt is sent.
-     positiveReinforcementPrompt: Prompt (class) or None, prompt used for positive reinforcement prompting. If set to None, no negative reinforcement is provided when in ICL the model provides a correct answer.
+     - logTraining: bool, whether to save a log of ICL results with ICL conversation.
+     - exampleSentenceMasks: bool, whether in prompting when providing example sentences as additional context to fill missing words in a sentence with [MASK] or not.
+     - trainingWithQuestions: bool, whether to train with question prompts
+     - trainingPrompt: Prompt (class), statment prompt
+     - trainingWithStatements: bool, whether to train with statement prompts
+     - testingPrompt: Prompt (class), question prompt
+     - exampleSentenceContextPrompt: Prompt (class) or None, prompt used to provide example sentence context for a clean value used in statement or question prompting. If set to None, no example sentence is given as context for statement and question prompts.
+     - languageContextPrompt: Prompt (class) or None, prompt used to provide language context for a clean value used in statement or question prompting. If set to None, no language is given as context for statement and question prompts.
+     - negativeReinforcementPrompt: Prompt (class) or None, prompt used for negative reinforcement prompting. If set to None, no negative reinforcement is provided when in ICL the model provides an incorrect answer.
+     - smallMistakeCorrectionPrompt: Prompt (class) or None, prompt used for small mistake correcion. If set to None, no negative reinforcement small mistake correction is provided to the model during ICL.
+     - smallMistakeLevenshteinThreshold: integer, threshold for model response during question prompting in ICL to be considered a small mistake. Distance between the response (lemma guess) and the correct answer (actual lemma) is calculated as edit distance https://en.wikipedia.org/wiki/Edit_distance. If edit distance between the response is equal to or less than the threshold, the smallMistakeCorrectionPrompt is sent.
+     - commonMistakeCorrectionPrompt: Prompt (class) or None, prompt used for common mistake correcion. If set to None, no negative reinforcement common mistake correction is provided to the model during ICL.
+     - commonMistakeFrequencyThreshold: integer, threshold for model response during question prompting in ICL to be considered a common mistake. If the model's response as a guess for the lemma of a clean value is a common guess within all model guesses of that lemma's clean values, determined by that response's appearance across all of that lemma's clean values, then the common mistake correction prompt is sent.
+     - positiveReinforcementPrompt: Prompt (class) or None, prompt used for positive reinforcement prompting. If set to None, no negative reinforcement is provided when in ICL the model provides a correct answer.
    
   line 141 - testBatch: Specify test batch size (change [0:30] to [0:N] where N is the size of the desired test batch. Batch is formed from the training set (random 20% subset of all lemmas)).
 
